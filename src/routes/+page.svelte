@@ -2,7 +2,8 @@
   import { onMount } from 'svelte';
 
   // Helper to get next Wednesday at noon EDT (UTC-4 or UTC-5 depending on DST)
-  function getNextWednesdayNoonEDT() {
+  // For every 100 counts, decrease target time by 1 hour
+  function getNextWednesdayNoonEDT(count: number = 0) {
     const now = new Date();
     // EDT is UTC-4, EST is UTC-5. We'll use UTC-4 for simplicity (EDT).
     // Find next Wednesday
@@ -13,12 +14,17 @@
       // If it's already past noon EDT today, go to next week
       daysUntilWednesday = 7;
     }
-    // Target date in UTC: Wednesday at 16:00 UTC (noon EDT)
+    
+    // Calculate hours to subtract based on count (1 hour per 100 counts)
+    const hoursToSubtract = Math.floor(count / 100);
+    const targetHour = 16 - hoursToSubtract; // 16:00 UTC = noon EDT
+    
+    // Target date in UTC: Wednesday at adjusted time
     const target = new Date(Date.UTC(
       now.getUTCFullYear(),
       now.getUTCMonth(),
       now.getUTCDate() + daysUntilWednesday,
-      16, 0, 0, 0
+      targetHour, 0, 0, 0
     ));
     return target;
   }
@@ -42,6 +48,9 @@
       });
       const data = await response.json();
       pageViews = data.count;
+      
+      // Update target date based on new count
+      targetDate = getNextWednesdayNoonEDT(pageViews);
     } catch (error) {
       console.error('Failed to increment page views:', error);
     }
