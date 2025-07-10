@@ -1,1 +1,13 @@
 @import "tailwindcss";
+
+body {
+  @apply min-h-screen bg-gradient-to-br from-orange-400 via-orange-500 to-orange-600 flex items-center justify-center;
+}
+
+.countdown {
+  @apply text-white text-[10vw] md:text-[8vw] font-extrabold drop-shadow-lg text-center flex items-center justify-center;
+}
+
+.countdown-label {
+  @apply text-white text-2xl md:text-4xl font-semibold mt-8 text-center;
+}
