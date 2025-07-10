@@ -32,6 +32,19 @@
     timeLeft = Math.max(0, targetDate.getTime() - Date.now());
   }
 
+  function getCookie(name: string): string | null {
+    const value = `; ${document.cookie}`;
+    const parts = value.split(`; ${name}=`);
+    if (parts.length === 2) return parts.pop()?.split(';').shift() || null;
+    return null;
+  }
+
+  function setCookie(name: string, value: string, days: number = 1) {
+    const expires = new Date();
+    expires.setTime(expires.getTime() + (days * 24 * 60 * 60 * 1000));
+    document.cookie = `${name}=${value};expires=${expires.toUTCString()};path=/`;
+  }
+
   async function incrementPageViews() {
     try {
       const response = await fetch('/api/count', {
@@ -47,9 +60,29 @@
     }
   }
 
+  async function getCurrentCount() {
+    try {
+      const response = await fetch('/api/count');
+      const data = await response.json();
+      pageViews = data.count;
+    } catch (error) {
+      console.error('Failed to get page views:', error);
+    }
+  }
+
   onMount(async () => {
-    // Increment page views via API
-    await incrementPageViews();
+    // Check if user has already visited today
+    const hasVisitedToday = getCookie('visited_today');
+    
+    if (!hasVisitedToday) {
+      // First visit today - increment the count
+      await incrementPageViews();
+      // Set cookie to expire in 1 day
+      setCookie('visited_today', 'true', 1);
+    } else {
+      // Already visited today - just get current count
+      await getCurrentCount();
+    }
     
     updateTimeLeft();
     interval = setInterval(() => {
