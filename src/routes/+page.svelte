@@ -111,4 +111,7 @@
   <div class="text-white text-lg mt-4 opacity-75">
     {pageViews} people have found this site. You're one of them...
   </div>
+  <div>
+  #smelt
+  </div>
 </div>
