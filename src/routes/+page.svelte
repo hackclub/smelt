@@ -66,6 +66,6 @@
     {/if}
   </div>
   <div class="text-white text-lg mt-4 opacity-75">
-    Page Views: {pageViews}
+    {pageViews} have found this site. You're one of them...
   </div>
 </div>
