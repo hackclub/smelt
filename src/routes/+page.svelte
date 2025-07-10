@@ -26,12 +26,21 @@
   let targetDate = getNextWednesdayNoonEDT();
   let timeLeft = 0;
   let interval: any;
+  let pageViews = 0;
 
   function updateTimeLeft() {
     timeLeft = Math.max(0, targetDate.getTime() - Date.now());
   }
 
   onMount(() => {
+    // Load page views from localStorage
+    const storedViews = localStorage.getItem('pageViews');
+    pageViews = storedViews ? parseInt(storedViews) : 0;
+    
+    // Increment page views
+    pageViews++;
+    localStorage.setItem('pageViews', pageViews.toString());
+    
     updateTimeLeft();
     interval = setInterval(() => {
       updateTimeLeft();
@@ -55,5 +64,8 @@
     {:else}
       00:00:00
     {/if}
+  </div>
+  <div class="text-white text-lg mt-4 opacity-75">
+    Page Views: {pageViews}
   </div>
 </div>
