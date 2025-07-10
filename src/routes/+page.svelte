@@ -32,14 +32,24 @@
     timeLeft = Math.max(0, targetDate.getTime() - Date.now());
   }
 
-  onMount(() => {
-    // Load page views from localStorage
-    const storedViews = localStorage.getItem('pageViews');
-    pageViews = storedViews ? parseInt(storedViews) : 0;
-    
-    // Increment page views
-    pageViews++;
-    localStorage.setItem('pageViews', pageViews.toString());
+  async function incrementPageViews() {
+    try {
+      const response = await fetch('/api/count', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        }
+      });
+      const data = await response.json();
+      pageViews = data.count;
+    } catch (error) {
+      console.error('Failed to increment page views:', error);
+    }
+  }
+
+  onMount(async () => {
+    // Increment page views via API
+    await incrementPageViews();
     
     updateTimeLeft();
     interval = setInterval(() => {
