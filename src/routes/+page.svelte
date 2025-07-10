@@ -56,7 +56,4 @@
       00:00:00
     {/if}
   </div>
-  <div class="countdown-label">
-    Countdown to next Wednesday noon (EDT)
-  </div>
 </div>
