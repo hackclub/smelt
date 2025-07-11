@@ -3,7 +3,7 @@
 
 <div class="min-h-screen bg-gray-300 flex relative items-center justify-center">
   <div class="flex flex-col space-y-12 items-center">
-    <div class=" size-48 bg-orange-400 rounded-full"></div>
+    <div class=" size-60 bg-orange-400 rounded-full"></div>
     <div class="text-center text-white bg-gray-500 px-8 py-2 -rotate-3">
       <p>
         Ship a <span class="text-orange-300">Svelte/SvelteKit</span> website,
@@ -27,17 +27,17 @@
     </div>
   </div>
 </div>
-
-<div class="bg-gray-500 flex justify-center">
-  <div>
-  <h2 class="justify-center text-white text-2xl font-bold py-8">
-    As you spend more time on your Svelte/SvelteKit website, you'll gain more and more prizes. Look below to see what you could get!
+<div class="text-center">
+  <h2 class="text-black text-2xl font-bold py-8">
+    As you spend more time on your Svelte/SvelteKit website, you'll gain <span class="text-orange-600"> more</span> and <span class="text-orange-600">more</span> prizes. Look below to see what you could get!
   </h2>
   </div>
+<div class="bg-gray-500 flex justify-center">
+  
   <div class="w-full max-w-4xl">
     <div>
       <p class="text-white py-10 h-4 w-12 bg-orange-400 rounded-full">1</p>
-    </div>
+    </div>  
     <div>
       <p class="text-white py-10 h-4 w-12 bg-orange-400 rounded-full">2</p>
     </div>
