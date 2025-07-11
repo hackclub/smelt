@@ -6,7 +6,7 @@
     <div class=" size-60 bg-orange-400 rounded-full"></div>
     <div class="text-center text-white bg-gray-500 px-8 py-2 -rotate-3">
       <p>
-        Ship a <span class="text-orange-300">Svelte/SvelteKit</span> website,
+        Ship a <a href="https://svelte.dev"><span class="text-orange-300 hover:underline">Svelte/SvelteKit</span></a> website,
       </p>
       <p>
         Include an <span class="text-orange-300">Easter Egg</span>,
@@ -35,14 +35,18 @@
 <div class="bg-gray-500 flex justify-center">
   
   <div class="w-full max-w-4xl">
+    <div >
+      <p class="text-white py-10 h-4 w-12 bg-orange-400 rounded-full">1 Hour - Get some <b class="hover:transform hover:scale-110">Stickers!!</b></p>
+    </div>
     <div>
-      <p class="text-white py-10 h-4 w-12 bg-orange-400 rounded-full">1</p>
-    </div>  
-    <div>
-      <p class="text-white py-10 h-4 w-12 bg-orange-400 rounded-full">2</p>
+      <p class="text-white py-10 h-4 w-12 bg-orange-400 rounded-full">3 Hours - Get a <b class="hover:transform hover:scale-110">Smelt Coin!!</b></p>
     </div>
     <div>
       <p class="text-white py-10 h-4 w-12 bg-orange-400 rounded-full">3</p>
     </div>
   </div>
 </div>
+
+<footer class="bg-black">
+  <p class="text-white text-center">Made with ❤️ by Hack Club's <a href="https://github.com/vandorena" class="text-orange-600">Alex Van Doren</a> and <a href="https://github.com/samdev-7" class="text-orange-600">Sam Liu</a> </p>
+</footer>
