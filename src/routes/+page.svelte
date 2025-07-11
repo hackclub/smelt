@@ -6,7 +6,10 @@
     <div class=" size-48 bg-orange-400 rounded-full"></div>
     <div class="text-center text-white bg-gray-500 px-8 py-2 -rotate-3">
       <p>
-        Ship a <span class="text-orange-300">Svelte/SvelteKit</span> website
+        Ship a <span class="text-orange-300">Svelte/SvelteKit</span> website,
+      </p>
+      <p>
+        Include an <span class="text-orange-300">Easter Egg</span>,
       </p>
       <p>Get a <span class="text-orange-300">Svelted Coin</span></p>
     </div>
@@ -20,7 +23,7 @@
   </div>
   <div class="absolute flex justify-center left-0 right-0 bottom-0">
     <div class="max-w-4xl w-full">
-      <img src="/crucible.svg" alt="Crucible" class="" />
+      <img src="/crucible.png" alt="Crucible" class=" h-44" />
     </div>
   </div>
 </div>
