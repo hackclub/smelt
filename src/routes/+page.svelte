@@ -1,10 +1,9 @@
-<script>
-</script>
 
+<body>
 <div class="min-h-screen bg-gray-300 flex relative items-center justify-center">
   <div class="flex flex-col space-y-12 items-center">
-    <div class=" size-60 bg-orange-400 rounded-full"></div>
-    <div class="text-center text-white bg-gray-500 px-8 py-2 -rotate-3">
+    <div class=" size-60 bg-orange-400 rounded-full" data-tilt></div>
+    <div class="text-center text-white bg-gray-500 px-8 py-2 -rotate-3" data-tilt>
       <p>
         Ship a <a href="https://svelte.dev"><span class="text-orange-300 hover:underline">Svelte/SvelteKit</span></a> website,
       </p>
@@ -32,7 +31,7 @@
   </div>
 <div class="bg-gray-500 flex justify-center">
   
-  <div class="w-full max-w-4xl  bg-orange-400">
+  <div class="w-full max-w-4xl ">
     <div >
       <p class="text-white py-10 h-4">1 Hour - Get some <b class="hover:transform hover:scale-110">Stickers!!</b></p>
     </div>
@@ -44,6 +43,8 @@
     </div>
   </div>
 </div>
+<script type="text/javascript" src="vanilla-tilt.js"></script>
+</body>
 
 <footer class="bg-black">
   <p class="text-white text-center">Made with ❤️ by Hack Club's <a href="https://github.com/vandorena" class="text-orange-600">Alex Van Doren</a> and <a href="https://github.com/samdev-7" class="text-orange-600">Sam Liu</a> </p>
