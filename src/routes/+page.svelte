@@ -15,7 +15,7 @@
     </div>
   </div>
   <div
-    class="absolute left-0 top-0 hover:scale-105 motion-safe:transition-transform hover:rotate-30 duration-200 rotate-12"
+    class="absolute left-0 top-0 hover:scale-105 motion-safe:transition-transform hover:-rotate-10 duration-200 rotate-12"
   >
     <a href="https://hackclub.com"
       ><img src="/flag_left.svg" alt="Hack Club" class="h-20" /></a
@@ -29,11 +29,20 @@
 </div>
 
 <div class="bg-gray-500 flex justify-center">
+  <div>
+  <h2 class="justify-center text-white text-2xl font-bold py-8">
+    As you spend more time on your Svelte/SvelteKit website, you'll gain more and more prizes. Look below to see what you could get!
+  </h2>
+  </div>
   <div class="w-full max-w-4xl">
     <div>
       <p class="text-white py-10 h-4 w-12 bg-orange-400 rounded-full">1</p>
     </div>
-    <div></div>
-    <div></div>
+    <div>
+      <p class="text-white py-10 h-4 w-12 bg-orange-400 rounded-full">2</p>
+    </div>
+    <div>
+      <p class="text-white py-10 h-4 w-12 bg-orange-400 rounded-full">3</p>
+    </div>
   </div>
 </div>
