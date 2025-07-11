@@ -8,18 +8,16 @@
       <p>
         Ship a <a href="https://svelte.dev"><span class="text-orange-300 hover:underline">Svelte/SvelteKit</span></a> website,
       </p>
-      <p>
-        Include an <span class="text-orange-300">Easter Egg</span>,
-      </p>
+      <div class="relative group">
+        <p>
+          Include an <span class="text-orange-300">Easter Egg</span>,
+        </p>
+      </div>
       <p>Get a <span class="text-orange-300">Svelted Coin</span></p>
-    </div>
+      </div>
   </div>
-  <div
-    class="absolute left-0 top-0 hover:scale-105 motion-safe:transition-transform hover:-rotate-10 duration-200 rotate-12"
-  >
-    <a href="https://hackclub.com"
-      ><img src="/flag_left.svg" alt="Hack Club" class="h-20" /></a
-    >
+  <div class="absolute left-0 top-0 hover:scale-105 motion-safe:transition-transform hover:-rotate-10">
+    <a href="https://hackclub.com"><img src="/flag_left.svg" alt="Hack Club" class="h-20" /></a>
   </div>
   <div class="absolute flex justify-center left-0 right-0 bottom-0">
     <div class="max-w-4xl w-full">
@@ -34,9 +32,9 @@
   </div>
 <div class="bg-gray-500 flex justify-center">
   
-  <div class="w-full max-w-4xl">
+  <div class="w-full max-w-4xl  bg-orange-400">
     <div >
-      <p class="text-white py-10 h-4 w-12 bg-orange-400 rounded-full">1 Hour - Get some <b class="hover:transform hover:scale-110">Stickers!!</b></p>
+      <p class="text-white py-10 h-4">1 Hour - Get some <b class="hover:transform hover:scale-110">Stickers!!</b></p>
     </div>
     <div>
       <p class="text-white py-10 h-4 w-12 bg-orange-400 rounded-full">3 Hours - Get a <b class="hover:transform hover:scale-110">Smelt Coin!!</b></p>
