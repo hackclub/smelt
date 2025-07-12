@@ -32,46 +32,81 @@
       </div>
     </div>
   </div>
-  <div class="text-center">
-    <h2 class="text-black text-2xl font-bold py-8">
-      The more hours you spend, <span class="text-orange-600">
-        the more prizes you gain</span
-      >
-      and <span class="text-orange-600">more</span> prizes. Look below to see what
-      you could get!
-    </h2>
-  </div>
   <div class="bg-gray-500 flex justify-center">
     <div class="w-full max-w-4xl">
-      <div>
-        <p class="text-white py-10 h-4">
-          1 Hour - Get some <b class="hover:transform hover:scale-110"
-            >Stickers!!</b
-          >
-        </p>
+      <div class="text-4xl text-white text-right pt-20">
+        The more hours you spend,<br /><span class="text-orange-300"
+          >the more prizes you gain.</span
+        >
       </div>
-      <div>
-        <p class="text-white py-10 h-4 w-12 bg-orange-400 rounded-full">
-          3 Hours - Get a <b class="hover:transform hover:scale-110"
-            >Smelt Coin!!</b
-          >
-        </p>
-      </div>
-      <div>
-        <p class="text-white py-10 h-4 w-12 bg-orange-400 rounded-full">3</p>
+      <div class="space-y-12 text-2xl pb-12">
+        <div class="grid grid-cols-2">
+          <div class="text-white flex items-center space-x-12 ml-28">
+            <p
+              class="size-20 bg-orange-400 flex items-center justify-center rounded-full text-4xl"
+            >
+              1h
+            </p>
+            <p>Get a ---</p>
+          </div>
+          <div class="text-white flex items-center space-x-12 pl-12 mt-12">
+            <p
+              class="size-20 bg-orange-400 flex items-center justify-center rounded-full text-4xl"
+            >
+              1h
+            </p>
+            <p>Get a ---</p>
+          </div>
+        </div>
+        <div class="grid grid-cols-2">
+          <div class="text-white flex items-center space-x-12 pl-10 mt-28">
+            <p
+              class="size-20 bg-orange-400 flex items-center justify-center rounded-full text-4xl"
+            >
+              1h
+            </p>
+            <p>Get a ---</p>
+          </div>
+          <div class="text-white flex items-center space-x-12 ml-28">
+            <p
+              class="size-20 bg-orange-400 flex items-center justify-center rounded-full text-4xl"
+            >
+              1h
+            </p>
+            <p>Get a ---</p>
+          </div>
+        </div>
+        <div class="grid grid-cols-2">
+          <div class="text-white flex items-center space-x-12 pl-48">
+            <p
+              class="size-20 bg-orange-400 flex items-center justify-center rounded-full text-4xl"
+            >
+              1h
+            </p>
+            <p>Get a ---</p>
+          </div>
+          <div class="text-white flex items-center space-x-12 pl-10 mt-20">
+            <p
+              class="size-20 bg-orange-400 flex items-center justify-center rounded-full text-4xl"
+            >
+              1h
+            </p>
+            <p>Get a ---</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
   <script type="text/javascript" src="vanilla-tilt.min.js"></script>
 </body>
 
-<footer class="bg-black">
+<footer class="bg-gray-600 py-10">
   <p class="text-white text-center">
     Made with ❤️ by Hack Club's <a
       href="https://github.com/vandorena"
-      class="text-orange-600">Alex Van Doren</a
+      class="text-orange-300">Alex Van Doren</a
     >
     and
-    <a href="https://github.com/samdev-7" class="text-orange-600">Sam Liu</a>
+    <a href="https://github.com/samdev-7" class="text-orange-300">Sam Liu</a>
   </p>
 </footer>
