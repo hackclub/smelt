@@ -20,7 +20,7 @@
       </div>
     </div>
     <div
-      class="absolute left-0 top-0 hover:scale-105 motion-safe:transition-transform hover:-rotate-10"
+      class="absolute left-0 top-0 hover:scale-105 motion-safe:transition-transform hover:-rotate-10 drop-shadow-[0_8px_4px_rgba(218,79,41,0.5)]"
     >
       <a href="https://hackclub.com"
         ><img src="/flag_left.svg" alt="Hack Club" class="h-20" /></a
