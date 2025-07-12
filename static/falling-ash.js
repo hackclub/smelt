@@ -28,9 +28,9 @@ function randomRange(from, to, seed){ return Math.floor((seed?seed:Math.random()
     else this.y = m*H;
     if(o && o.a) this.a = o.a;
     else this.a = m*(p-4)+1;
-    this.r = randomRange(233, 255, m);
-    this.g = randomRange(181, 192, m);
-    this.b = randomRange(72, 88, m);
+    this.r = randomRange(233, 265, m);
+    this.g = randomRange(160, 180, m);
+    this.b = randomRange(60, 70, m);
     
     if(o && o.dp) this.dp = o.dp;
     else {
@@ -105,6 +105,6 @@ function randomRange(from, to, seed){ return Math.floor((seed?seed:Math.random()
   canvas[0].height = H;
   canvas[1].width = W;
   canvas[1].height = H;
-  for(var i = 0; i < 50; i++) A.push(new ash());
+  for(var i = 0; i < 600; i++) A.push(new ash());
   setInterval(draw, 33);
 })(bg);
