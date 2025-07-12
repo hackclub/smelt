@@ -1,4 +1,6 @@
-
+<head>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
 <body>
 <div class="min-h-screen bg-gray-300 flex relative items-center justify-center">
   <div class="flex flex-col space-y-12 items-center">
@@ -7,7 +9,7 @@
       <p>
         Ship a <a href="https://svelte.dev"><span class="text-orange-300 hover:underline">Svelte/SvelteKit</span></a> website,
       </p>
-      <div class="relative group">
+      <div class="relative group" data-aos="zoom-out-up">
         <p>
           Include an <span class="text-orange-300 relative">Easter Egg</span>,
         </p>
@@ -27,10 +29,10 @@
     </div>
   </div>
 </div>
-<div class="text-center">
+<div class="text-center" data-aos="zoom-out-up">
   <h2 class="text-black text-2xl font-bold py-8">
     As you spend more time on your Svelte/SvelteKit website, you'll gain <span class="text-orange-600"> more</span> and <span class="text-orange-600">more</span> prizes. Look below to see what you could get!
-  </h2>
+  </h2> 
   </div>
 <div class="bg-gray-500 flex justify-center">
   
@@ -47,6 +49,10 @@
   </div>
 </div>
 <script type="text/javascript" src="vanilla-tilt.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 
 <footer class="bg-black">
