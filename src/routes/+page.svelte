@@ -9,13 +9,16 @@
       </p>
       <div class="relative group">
         <p>
-          Include an <span class="text-orange-300">Easter Egg</span>,
+          Include an <span class="text-orange-300 relative">Easter Egg</span>,
         </p>
+        <div class=" hidden group-hover:block"> <!-- This tooltip should be made better-->
+          An easter egg is a bit like some hidden treasure, something different that the user can find if they look deep enough.
+        </div>
       </div>
       <p>Get a <span class="text-orange-300">Svelted Coin</span></p>
       </div>
   </div>
-  <div class="absolute left-0 top-0 hover:scale-105 motion-safe:transition-transform hover:-rotate-10">
+  <div class="absolute left-0 top-0 hover:scale-105 motion-safe:transition-transform hover:-rotate-5">
     <a href="https://hackclub.com" class="hover:drop-shadow-[0px_10px_5px_rgba(218,79,41,0.5)]"><img src="/flag_left.svg" alt="Hack Club" class="h-20" /></a>
   </div>
   <div class="absolute flex justify-center left-0 right-0 bottom-0">
@@ -32,14 +35,14 @@
 <div class="bg-gray-500 flex justify-center">
   
   <div class="w-full max-w-4xl ">
-    <div >
-      <p class="text-white py-10 h-4">1 Hour - Get some <b class="hover:transform hover:scale-110">Stickers!!</b></p>
+    <div class="bg-origin-padding bg-clip-padding p-4">
+      <p class="text-white py-10 h-4 w-12 bg-orange-400 rounded-20">1 Hour - Get some <b class="hover:transform hover:scale-110">Stickers!!</b></p>
     </div>  
     <div>
-      <p class="text-white py-10 h-4 w-12 bg-orange-400 rounded-full">3 Hours - Get a <b class="hover:transform hover:scale-110">Smelt Coin!!</b></p>
+      <p class="text-white py-10 h-4 w-12 bg-orange-400 rounded-20">3 Hours - Get a <b class="hover:transform hover:scale-110">Smelt Coin!!</b></p>
     </div>
     <div>
-      <p class="text-white py-10 h-4 w-12 bg-orange-400 rounded-full">3</p>
+      <p class="text-white py-10 h-4 w-12 bg-orange-400 rounded-20">3</p>
     </div>
   </div>
 </div>
