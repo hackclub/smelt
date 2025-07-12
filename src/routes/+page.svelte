@@ -102,11 +102,11 @@
 
 <footer class="bg-gray-600 py-10">
   <p class="text-white text-center">
-    Made with ❤️ by Hack Club's <a
+    Made with <span class="inline-block hover:animate-bounce cursor-pointer">❤️</span> by Hack Club's <a
       href="https://github.com/vandorena"
-      class="text-orange-300">Alex Van Doren</a
+      class="text-orange-300 hover:underline cursor-pointer">Alex Van Doren</a
     >
     and
-    <a href="https://github.com/samdev-7" class="text-orange-300">Sam Liu</a>
+    <a href="https://github.com/samdev-7" class="text-orange-300 hover:underline cursor-pointer">Sam Liu</a>
   </p>
 </footer>
