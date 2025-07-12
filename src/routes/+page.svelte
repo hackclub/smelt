@@ -12,12 +12,12 @@
       <div class="relative group" data-aos="zoom-out-up">
         <p>
           Include an <span class="text-orange-300 relative">Easter Egg</span>,
+        <p>
+          Get a <span class="text-orange-300">Svelted Coin</span> & more!
         </p>
         <div class=" hidden group-hover:block"> <!-- This tooltip should be made better-->
           An easter egg is a bit like some hidden treasure, something different that the user can find if they look deep enough.
         </div>
-      </div>
-      <p>Get a <span class="text-orange-300">Svelted Coin</span></p>
       </div>
   </div>
   <div class="absolute left-0 top-0 hover:scale-105 motion-safe:transition-transform hover:-rotate-5">
@@ -35,7 +35,6 @@
   </h2> 
   </div>
 <div class="bg-gray-500 flex justify-center">
-  
   <div class="w-full max-w-4xl ">
     <div class="bg-origin-padding bg-clip-padding p-4">
       <p class="text-white py-10 h-4 w-12 bg-orange-400 rounded-20">1 Hour - Get some <b class="hover:transform hover:scale-110">Stickers!!</b></p>
@@ -53,8 +52,13 @@
 <script>
   AOS.init();
 </script>
-</body>
-
-<footer class="bg-black">
-  <p class="text-white text-center">Made with ❤️ by Hack Club's <a href="https://github.com/vandorena" class="text-orange-600">Alex Van Doren</a> and <a href="https://github.com/samdev-7" class="text-orange-600">Sam Liu</a> </p>
+<footer class="bg-gray-600 py-10">
+  <p class="text-white text-center">
+    Made with ❤️ by Hack Club's <a
+      href="https://github.com/vandorena"
+      class="text-orange-300">Alex Van Doren</a
+    >
+    and
+    <a href="https://github.com/samdev-7" class="text-orange-300">Sam Liu</a>
+  </p>
 </footer>
