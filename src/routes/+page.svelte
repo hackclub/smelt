@@ -2,8 +2,8 @@
 <body>
 <div class="min-h-screen bg-gray-300 flex relative items-center justify-center">
   <div class="flex flex-col space-y-12 items-center">
-    <div class=" size-60 bg-orange-400 " data-tilt data-tilt-glare data-tilt-max-glare="0.6"></div>
-    <div class="text-center text-white bg-gray-500 px-8 py-2 -rotate-3" data-tilt>
+    <div class=" size-60 bg-orange-400 rounded-full hover:drop-shadow-[0_10px_5px_rgba(57,58,76,0.5)]" data-tilt data-tilt-glare data-tilt-max-glare="0.6"></div>
+    <div class="text-center text-white bg-gray-500 px-8 py-2 -rotate-3 hover:drop-shadow-[0_10px_5px_rgba(57,58,76,0.5)] hover:scale-105 motion-safe:transition-transform">
       <p>
         Ship a <a href="https://svelte.dev"><span class="text-orange-300 hover:underline">Svelte/SvelteKit</span></a> website,
       </p>
@@ -16,7 +16,7 @@
       </div>
   </div>
   <div class="absolute left-0 top-0 hover:scale-105 motion-safe:transition-transform hover:-rotate-10">
-    <a href="https://hackclub.com"><img src="/flag_left.svg" alt="Hack Club" class="h-20" /></a>
+    <a href="https://hackclub.com" class="hover:drop-shadow-[0px_10px_5px_rgba(218,79,41,0.5)]"><img src="/flag_left.svg" alt="Hack Club" class="h-20" /></a>
   </div>
   <div class="absolute flex justify-center left-0 right-0 bottom-0">
     <div class="max-w-4xl w-full">
