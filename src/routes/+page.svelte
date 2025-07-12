@@ -62,7 +62,7 @@
       </div>
     </div>
   </div>
-  <script type="text/javascript" src="vanilla-tilt.js"></script>
+  <script type="text/javascript" src="vanilla-tilt.min.js"></script>
 </body>
 
 <footer class="bg-black">
