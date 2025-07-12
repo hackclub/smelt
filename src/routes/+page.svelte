@@ -2,7 +2,7 @@
 <body>
 <div class="min-h-screen bg-gray-300 flex relative items-center justify-center">
   <div class="flex flex-col space-y-12 items-center">
-    <div class=" size-60 bg-orange-400 rounded-full" data-tilt></div>
+    <div class=" size-60 bg-orange-400 " data-tilt data-tilt-glare data-tilt-max-glare="0.6"></div>
     <div class="text-center text-white bg-gray-500 px-8 py-2 -rotate-3" data-tilt>
       <p>
         Ship a <a href="https://svelte.dev"><span class="text-orange-300 hover:underline">Svelte/SvelteKit</span></a> website,
@@ -34,7 +34,7 @@
   <div class="w-full max-w-4xl ">
     <div >
       <p class="text-white py-10 h-4">1 Hour - Get some <b class="hover:transform hover:scale-110">Stickers!!</b></p>
-    </div>
+    </div>  
     <div>
       <p class="text-white py-10 h-4 w-12 bg-orange-400 rounded-full">3 Hours - Get a <b class="hover:transform hover:scale-110">Smelt Coin!!</b></p>
     </div>
