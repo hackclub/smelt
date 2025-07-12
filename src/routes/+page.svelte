@@ -3,23 +3,20 @@
     class="min-h-screen bg-gray-300 flex relative items-center justify-center"
   >
     <div class="flex flex-col space-y-12 items-center">
-      <div class=" size-60 bg-orange-400 rounded-full" data-tilt></div>
+      <div class="size-80 bg-orange-400 rounded-full" data-tilt></div>
       <div
-        class="text-center text-white bg-gray-500 px-8 py-2 -rotate-3"
+        class="text-center text-white bg-gray-500 px-12 py-8 -rotate-3 text-3xl"
         data-tilt
       >
         <p>
-          Ship a <span class="text-orange-300">Svelte/SvelteKit</span> website,
+          Ship a <span class="text-orange-300">Svelte/SvelteKit</span> website
         </p>
         <p>
-          Include a <span class="text-orange-300">Easter Egg,</span>
+          with an <span class="text-orange-300">Easter Egg</span>,
         </p>
-        <div class="relative group">
-          <p>
-            Include an <span class="text-orange-300">Easter Egg</span>,
-          </p>
-        </div>
-        <p>Get a <span class="text-orange-300">Svelted Coin</span></p>
+        <p>
+          Get a <span class="text-orange-300">Svelted Coin</span> & more!
+        </p>
       </div>
     </div>
     <div
@@ -37,10 +34,8 @@
   </div>
   <div class="text-center">
     <h2 class="text-black text-2xl font-bold py-8">
-      As you spend more time on your Svelte/SvelteKit website, you'll gain <span
-        class="text-orange-600"
-      >
-        more</span
+      The more hours you spend, <span class="text-orange-600">
+        the more prizes you gain</span
       >
       and <span class="text-orange-600">more</span> prizes. Look below to see what
       you could get!
