@@ -3,7 +3,7 @@
     class="min-h-screen bg-gray-300 flex relative items-center justify-center"
   >
     <div class="flex flex-col space-y-12 items-center">
-      <div class="size-80 bg-orange-400 rounded-full hover:drop-shadow-[0_10px_5px_rgba(57,58,76,0.5)]" data-tilt data-tilt-reset="false" data-tilt-glare data-tilt-max-glare="0.6"></div>
+      <div class="size-80 bg-orange-400 rounded-full hover:drop-shadow-[0_10px_5px_rgba(57,58,76,0.5)]" data-tilt data-tilt-reset="true" data-tilt-scale="1.2" data-tilt-glare data-tilt-max-glare="0.6"></div>
       <div
         class="text-center text-white bg-gray-500 px-12 py-8 -rotate-3 text-3xl"
       >
