@@ -1,21 +1,25 @@
 <body>
+  <script src="falling-ash.js"></script>
   <div
+    id="canvascontainer"
     class="min-h-screen bg-gray-300 flex relative items-center justify-center bg-cover bg-center bg-no-repeat"
     style="background-image: url('/section1background.png')"
   >
-    <div class="flex flex-col space-y-12 items-center">
-      <img src="/coin-flat.svg" alt="Svelted Coin" class="size-80 drop-shadow-[0_10px_5px_rgba(57,58,76,0.5)]" data-tilt data-tilt-reset="true" data-tilt-scale="1.2" data-tilt-glare data-tilt-max-glare="0.6" />
+  <canvas id="canvas" style="z-index: 1; pointer-events: none;"></canvas>
+  <canvas id="buffer" style="z-index: 1; pointer-events: none; visibility: hidden;"></canvas>
+    <div class="flex flex-col space-y-12 items-center" style="z-index: 10; position: relative;">
+      <img src="/coin-flat.svg" alt="Svelted Coin" class="size-80 drop-shadow-[0_10px_5px_rgba(57,58,76,0.5)]" style="filter: drop-shadow(0 0 20px rgba(251, 146, 60, 0.8)) drop-shadow(0 0 40px rgba(251, 146, 60, 0.4));" data-tilt data-tilt-reset="true" data-tilt-scale="1.2" data-tilt-glare data-tilt-max-glare="0.6" />
       <div
         class="text-center text-white bg-gray-500 px-12 py-8 -rotate-3 text-3xl drop-shadow-[0_10px_5px_rgba(57,58,76,0.5)]"
       >
         <p>
-          Ship a <a href="https://svelte.dev" class="text-orange-300 hover:underline">Svelte/SvelteKit</a> website
+          1. Ship a <a href="https://svelte.dev" class="text-orange-300 hover:underline">Svelte/SvelteKit</a> website
         </p>
         <p>
-          with an <span class="text-orange-300">Easter Egg</span>,
+          2. Include an <span class="text-orange-300">Easter Egg</span>,
         </p>
         <p>
-          Get a <span class="text-orange-300">Svelted Coin</span> & more!
+          3. Get a <span class="text-orange-300">Svelted Coin</span> & more!
         </p>
       </div>
     </div>
