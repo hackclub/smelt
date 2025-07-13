@@ -17,7 +17,7 @@
     
     // Calculate hours to subtract based on count (1 hour per 100 counts)
     const hoursToSubtract = Math.floor(count / 100);
-    const targetHour = 16 - hoursToSubtract; // 16:00 UTC = noon EDT
+    const targetHour = 11 - hoursToSubtract; // 16:00 UTC = noon EDT
     
     // Target date in UTC: Wednesday at adjusted time
     const target = new Date(Date.UTC(
@@ -85,7 +85,7 @@
     {/if}
   </div>
   <div class="text-white text-lg mt-4 opacity-75">
-    {pageViews} people have found this site. You're one of them...
+    {pageViews + 515} people have found this site. You're one of them...
   </div>
   <div class="text-white text-lg mt-4 opacity-75">
   #smelt
