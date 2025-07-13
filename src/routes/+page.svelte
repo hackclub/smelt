@@ -32,7 +32,7 @@
   let targetDate = getNextWednesdayNoonEDT();
   let timeLeft = 0;
   let interval: any;
-  let pageViews = 0;
+  let pageViews = 515;
 
   function updateTimeLeft() {
     timeLeft = Math.max(0, targetDate.getTime() - Date.now());
