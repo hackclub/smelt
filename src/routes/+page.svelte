@@ -52,15 +52,15 @@
             >
               1h
             </p>
-            <p>Get a ---</p>
+            <p>Get a set of Svelte/Smelt Stickers</p>
           </div>
           <div class="text-white flex items-center space-x-12 pl-12 mt-12">
             <p
               class="size-20 bg-orange-400 flex items-center justify-center rounded-full text-4xl"
             >
-              1h
+              3h
             </p>
-            <p>Get a ---</p>
+            <p>Get a SmeltCoin</p>
           </div>
         </div>
         <div class="grid grid-cols-2">
@@ -68,17 +68,17 @@
             <p
               class="size-20 bg-orange-400 flex items-center justify-center rounded-full text-4xl"
             >
-              1h
+            7h
             </p>
-            <p>Get a ---</p>
+            <p>Get a Smelted Pin</p>
           </div>
           <div class="text-white flex items-center space-x-12 ml-28">
             <p
               class="size-20 bg-orange-400 flex items-center justify-center rounded-full text-4xl"
             >
-              1h
+              5h
             </p>
-            <p>Get a ---</p>
+            <p>Get a Smelted USB Stick</p>
           </div>
         </div>
         <div class="grid grid-cols-2">
@@ -86,21 +86,24 @@
             <p
               class="size-20 bg-orange-400 flex items-center justify-center rounded-full text-4xl"
             >
-              1h
+              12h
             </p>
-            <p>Get a ---</p>
+            <p>Get a Smelted Mousepad</p>
           </div>
           <div class="text-white flex items-center space-x-12 pl-10 mt-20">
             <p
               class="size-20 bg-orange-400 flex items-center justify-center rounded-full text-4xl"
             >
-              1h
+              16h
             </p>
-            <p>Get a ---</p>
+            <p>Get a Smelted Shirt</p>
           </div>
         </div>
       </div>
     </div>
+  </div>
+  <div>
+    <!-- this is gonna be an faq section -->
   </div>
   <script type="text/javascript" src="vanilla-tilt.min.js"></script>
 </body>
