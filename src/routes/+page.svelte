@@ -103,6 +103,12 @@
     </div>
   </div>
   <div>
+    <!-- This will be a Submission Section-->
+  </div>
+  <div>
+    <!-- This will be a Carousel Showing Submissions -->
+  </div>
+  <div>
     <!-- this is gonna be an faq section -->
   </div>
   <script type="text/javascript" src="vanilla-tilt.min.js"></script>
