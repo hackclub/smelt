@@ -4,12 +4,9 @@ import type { RequestHandler } from '@sveltejs/kit';
 // Store IP addresses and their last visit timestamps
 const ipVisits = new Map<string, number>();
 
-// Base count to start from (simulating previous visitors)
-const BASE_COUNT = 510;
-
 export const GET: RequestHandler = async ({ request }) => {
 	const clientIP = getClientIP(request);
-	return json({ count: BASE_COUNT + ipVisits.size });
+	return json({ count: ipVisits.size });
 };
 
 export const POST: RequestHandler = async ({ request }) => {
@@ -24,7 +21,7 @@ export const POST: RequestHandler = async ({ request }) => {
 		ipVisits.set(clientIP, now);
 	}
 	
-	return json({ count: BASE_COUNT + ipVisits.size });
+	return json({ count: ipVisits.size });
 };
 
 function getClientIP(request: Request): string {
