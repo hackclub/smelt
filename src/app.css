@@ -17,3 +17,42 @@ canvas {
   -moz-transform3d: translate(0,0,0);
   transform3d: translate(0,0,0);
 }
+
+.faq-item {
+    width: 40vw;
+    min-width: 350px;
+    margin-top: 1rem;
+}
+.item-question {
+    background: #143d59;
+    color: whitesmoke;
+    font-size: 1rem;
+    padding: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.question-text {
+    display: inline-block;
+}
+.arrows-container {
+    margin: 0.4rem;
+}
+.item-answer {
+    display: none;
+    color: whitesmoke;
+    padding: 2rem;
+}
+.close {
+    display: none;
+}
+.show-answer .item-answer {
+    display: block;
+    background: #4b5f6d;
+}
+.show-answer .close {
+    display: inline;
+}
+.show-answer .expand {
+    display: none;
+}

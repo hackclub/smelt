@@ -1,5 +1,6 @@
 <body>
   <script src="falling-ash.js"></script>
+  <script src="faq_script.js"></script>
   <div
     id="canvascontainer"
     class="min-h-screen bg-gray-300 flex relative items-center justify-center bg-cover bg-center bg-no-repeat"
@@ -116,8 +117,9 @@
     <!-- This will be a Carousel Showing Submissions -->
   </div>
   <div id="faqs" class="bg-gray-500 py-10 flex justify-center">
-    <h2 class="text-4xl text-white">FAQ's</h2>
+    <h2 class="text-4xl text-white">Frequently Asked Questions (FAQs)</h2>
     <!-- this is gonna be an faq section -->
+     <div id="FAQs-container"></div>
   </div>
   <script type="text/javascript" src="vanilla-tilt.min.js"></script>
 </body>
