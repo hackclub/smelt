@@ -23,6 +23,7 @@
 	"dependencies": {
 		"@sveltejs/adapter-node": "^5.2.13",
 		"@tailwindcss/vite": "^4.1.11",
+		"flowbite": "^3.1.2",
 		"tailwindcss": "^4.1.11"
 	}
 }
