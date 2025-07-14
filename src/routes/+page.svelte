@@ -104,13 +104,13 @@
   </div>
   <div class="bg-gray-500 py-10 flex justify-center">
     <!-- This will be a Submission Section-->
-      <button class="relative w-xl inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-slate-700 via-orange-400 to-yellow-400 group-hover:from-pink-500 group-hover:to-orange-400 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 hover:scale-105 transition-transform duration-1000 motion-safe:transition-transform">
-        <a href="https://forms.hackclub.com/t/nGQ96A1Lnwus">
+     <a href="https://forms.hackclub.com/t/nGQ96A1Lnwus">
+      <button class="relative w-xl inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-slate-700 via-orange-400 to-yellow-400 group-hover:from-pink-500 group-hover:to-orange-400 hover:text-white dark:text-white focus:outline-none hover:scale-105 transition-transform duration-1000 motion-safe:transition-transform">
           <span class="relative w-xl px-5 py-2.5 transition-colors bg-white dark:bg-gray-900 rounded-md group-hover:bg-transparent group-hover:dark:bg-transparent text-2xl hover:scale-105">
-          Submit your Svelted Site!
+          Submit your Site!
           </span>
-        </a>
       </button>
+    </a>
   </div>
   <div>
     <!-- This will be a Carousel Showing Submissions -->
