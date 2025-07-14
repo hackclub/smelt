@@ -1,6 +1,6 @@
 <body>
-  <script src="falling-ash.js"></script>
-  <script src="faq_script.js"></script>
+  <script src="falling-ash.js" defer></script>
+  <script src="faq_script.js" defer></script>
   <div
     id="canvascontainer"
     class="min-h-screen bg-gray-300 flex relative items-center justify-center bg-cover bg-center bg-no-repeat"
@@ -38,7 +38,7 @@
       </div>
     </div>
   </div>
-  <div class="bg-gray-500 flex justify-center">
+  <div class="bg-gray-500 flex justify-center" style="background-image: url('/texturedsection.jpg')">
     <div class="w-full max-w-4xl">
       <div class="text-4xl text-white text-right pt-20">
         The more hours you spend,<br /><span class="text-orange-300"
@@ -106,8 +106,8 @@
   <div class="bg-gray-500 py-10 flex justify-center">
     <!-- This will be a Submission Section-->
      <a href="https://forms.hackclub.com/t/nGQ96A1Lnwus">
-      <button class="relative w-xl inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-slate-700 via-orange-400 to-yellow-400 group-hover:from-pink-500 group-hover:to-orange-400 hover:text-white dark:text-white focus:outline-none hover:scale-105 transition-transform duration-1000 motion-safe:transition-transform">
-          <span class="relative w-xl px-5 py-2.5 transition-colors bg-white cursor-pointer dark:bg-gray-900 rounded-md group-hover:bg-transparent group-hover:dark:bg-transparent text-2xl hover:scale-105">
+      <button class="relative w-m inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-slate-700 via-orange-400 to-yellow-400 group-hover:from-pink-500 group-hover:to-orange-400 hover:text-white dark:text-white focus:outline-none hover:scale-105 transition-transform duration-1000 motion-safe:transition-transform">
+          <span class="relative w-m px-5 py-2.5 transition-colors bg-white cursor-pointer dark:bg-gray-900 rounded-md group-hover:bg-transparent group-hover:dark:bg-transparent text-2xl hover:scale-105">
           Submit your Site!
           </span>
       </button>
@@ -116,10 +116,26 @@
   <div>
     <!-- This will be a Carousel Showing Submissions -->
   </div>
-  <div id="faqs" class="bg-gray-500 py-10 flex justify-center">
+  <div id="faqs" class="bg-gray-500 py-10 flex flex-col items-left">
+  
     <h2 class="text-4xl text-white">Frequently Asked Questions (FAQs)</h2>
-    <!-- this is gonna be an faq section -->
-     <div id="FAQs-container"></div>
+    <div class="h-10 mt-4">
+      <h4>What is Smelt?</h4>
+      A Hack Club YSWS where you can build a Svelte/SvelteKit website and get Svelted Rewards for your efforts!
+    </div>
+    <div class="h-10 mt-4">
+      <h4>What is Svelte and SvelteKit?</h4>
+      Svelte is a modern JavaScript framework for building user interfaces, while SvelteKit is a framework for building Svelte applications with features like routing and server-side rendering.
+    </div>
+    <div class="h-10 mt-4">
+      <h4>How do you track my hours?</h4>
+      We track your hours through <a href="https://hackatime.hackclub.com" class="hover:underline text-orange-600">hackatime</a>, an extension we made that tracks your time spent coding.
+    </div>
+    <div class="h-10 mt-4">
+      <h4>Are there any limitations on what I can submit?</h4>
+      Yes - you must have included an Easter Egg in your site, and it must be built with Svelte or SvelteKit. The site must also be hosted on a public URL, and your first commit must have been after the 10th of July 2025.
+    </div>
+    
   </div>
   <script type="text/javascript" src="vanilla-tilt.min.js"></script>
 </body>
