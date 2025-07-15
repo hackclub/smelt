@@ -18,41 +18,20 @@ canvas {
   transform3d: translate(0,0,0);
 }
 
-.faq-item {
-    width: 40vw;
-    min-width: 350px;
-    margin-top: 1rem;
+
+::-webkit-scrollbar {
+  width: 8px;
 }
-.item-question {
-    background: #143d59;
-    color: whitesmoke;
-    font-size: 1rem;
-    padding: 1.2rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
+::-webkit-scrollbar-track {
+  background: #374151;
 }
-.question-text {
-    display: inline-block;
+
+::-webkit-scrollbar-thumb {
+  background: #fb923c;
+  border-radius: 4px;
 }
-.arrows-container {
-    margin: 0.4rem;
-}
-.item-answer {
-    display: none;
-    color: whitesmoke;
-    padding: 2rem;
-}
-.close {
-    display: none;
-}
-.show-answer .item-answer {
-    display: block;
-    background: #4b5f6d;
-}
-.show-answer .close {
-    display: inline;
-}
-.show-answer .expand {
-    display: none;
+
+::-webkit-scrollbar-thumb:hover {
+  background: #f97316;
 }

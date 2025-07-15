@@ -116,26 +116,59 @@
   <div>
     <!-- This will be a Carousel Showing Submissions -->
   </div>
-  <div id="faqs" class="bg-gray-500 py-10 flex flex-col items-left">
-  
-    <h2 class="text-4xl text-white">Frequently Asked Questions (FAQs)</h2>
-    <div class="h-10 mt-4">
-      <h4>What is Smelt?</h4>
-      A Hack Club YSWS where you can build a Svelte/SvelteKit website and get Svelted Rewards for your efforts!
+  <div id="faqs" class="bg-gray-700 py-16 px-8">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-5xl font-bold text-orange-300 text-center mb-12">Frequently Asked Questions</h2>
+      
+      <div class="space-y-8">
+        <div class="faq-item bg-gray-800 rounded-lg p-6 border-l-4 duration-100 border-orange-400 hover:scale-105 *:transition-colors">
+          <h3 class="text-2xl font-semibold text-orange-300 mb-3">What is Smelt?</h3>
+          <p class="text-gray-200 text-lg leading-relaxed">
+            A Hack Club YSWS (You Ship, We Ship) where you can build a Svelte/SvelteKit website and get Svelted Rewards for your efforts! 
+            It's all about learning, building, and getting awesome prizes while you code.
+          </p>
+        </div>
+
+        <div class="faq-item bg-gray-800 rounded-lg p-6 border-l-4 duration-100 border-orange-400 hover:scale-105 *:transition-colors">
+          <h3 class="text-2xl font-semibold text-orange-300 mb-3">What is <a href="https://svelte.dev/docs/svelte/overview" class="cursor-pointer  hover:text-orange-300 hover:underline">Svelte</a> and <a href="https://svelte.dev/docs/kit/introduction" class="cursor-pointer hover:text-orange-300 hover:underline">SvelteKit</a>?</h3>
+          <p class="text-gray-200 text-lg leading-relaxed">
+            <span class="font-semibold text-orange-400"><a href="https://svelte.dev/docs/svelte/overview" class="cursor-pointer  hover:text-orange-300 hover:underline">Svelte</a></span> is a modern JavaScript framework for building user interfaces that compiles your code to vanilla JavaScript. 
+            <span class="font-semibold text-orange-400"><a href="https://svelte.dev/docs/kit/introduction" class="cursor-pointer hover:text-orange-300 hover:underline">SvelteKit</a></span> is a framework built on top of Svelte that adds features like routing, 
+            server-side rendering, and file-based routing to help you build full-stack applications.
+          </p>
+        </div>
+
+        <div class="faq-item bg-gray-800 rounded-lg p-6 border-l-4 duration-100 border-orange-400 hover:scale-105 *:transition-colors">
+          <h3 class="text-2xl font-semibold text-orange-300 mb-3">How do you track my hours?</h3>
+          <p class="text-gray-200 text-lg leading-relaxed">
+            We track your hours through <a href="https://hackatime.hackclub.com" class="text-orange-400 hover:text-orange-300 hover:underline cursor-pointer font-semibold">Hackatime</a>, 
+            an extension we made that automatically tracks your development time. Just install it, connect your account, and start coding! 
+            Your hours will be automatically logged and counted towards your progress. However, do note that in our review process, we will check your commit history to ensure that your hours logged are representative of your work.
+          </p>
+        </div>
+
+        <div class="faq-item bg-gray-800 rounded-lg p-6 border-l-4 duration-100 border-orange-400 hover:scale-105 *:transition-colors">
+          <h3 class="text-2xl font-semibold text-orange-300 mb-3">Are there any limitations on what I can submit?</h3>
+          <div class="text-gray-200 text-lg leading-relaxed">
+            <p class="mb-3">Yes, here are the requirements:</p>
+            <ul class="list-disc list-inside space-y-2 ml-4">
+              <li>Must include an <span class="text-orange-200 font-semibold">Easter Egg</span> in your site</li>
+              <li>Must be built with <span class="text-orange-200 font-semibold">Svelte or SvelteKit</span></li>
+              <li>Must be hosted on a <span class="text-orange-200 font-semibold">public URL</span></li>
+              <li>Your first commit must be <span class="text-orange-200 font-semibold">after July 10th, 2025</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="faq-item bg-gray-800 rounded-lg p-6 border-l-4 duration-100 border-orange-400 hover:scale-105 *:transition-colors">
+          <h3 class="text-2xl font-semibold text-orange-300 mb-3">When will I receive my prizes?</h3>
+          <p class="text-gray-200 text-lg leading-relaxed">
+            Prizes will be shipped after the event ends and we've verified your submission. 
+            Make sure to fill out the submission form completely with your correct shipping address!
+          </p>
+        </div>
+      </div>
     </div>
-    <div class="h-10 mt-4">
-      <h4>What is Svelte and SvelteKit?</h4>
-      Svelte is a modern JavaScript framework for building user interfaces, while SvelteKit is a framework for building Svelte applications with features like routing and server-side rendering.
-    </div>
-    <div class="h-10 mt-4">
-      <h4>How do you track my hours?</h4>
-      We track your hours through <a href="https://hackatime.hackclub.com" class="hover:underline text-orange-600">hackatime</a>, an extension we made that tracks your time spent coding.
-    </div>
-    <div class="h-10 mt-4">
-      <h4>Are there any limitations on what I can submit?</h4>
-      Yes - you must have included an Easter Egg in your site, and it must be built with Svelte or SvelteKit. The site must also be hosted on a public URL, and your first commit must have been after the 10th of July 2025.
-    </div>
-    
   </div>
   <script type="text/javascript" src="vanilla-tilt.min.js"></script>
 </body>
