@@ -17,7 +17,7 @@
           1. Ship a <a href="https://svelte.dev" class="text-orange-300 hover:underline">Svelte/SvelteKit</a> website
         </p>
         <p>
-          2. Include an <span class="text-orange-300">Easter Egg</span>,
+          2. Include an <span class="text-orange-300"><a href="https://hc-cdn.hel1.your-objectstorage.com/s/v3/138cdfc4d8700edf08b30f61138cc82c39fe5e97_1498dc64062685.5ac5abaa81fad.gif" class="cursor-text">Easter Egg</a></span>,
         </p>
         <p>
           3. Get a <span class="text-orange-300">Svelted Coin</span> & more!
@@ -106,7 +106,7 @@
     <!-- This will be a Submission Section-->
      <a href="https://forms.hackclub.com/t/nGQ96A1Lnwus">
       <button class="relative w-m inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-slate-700 via-orange-400 to-yellow-400 group-hover:from-pink-500 group-hover:to-orange-400 hover:text-white dark:text-white focus:outline-none hover:scale-105 transition-transform duration-1000 motion-safe:transition-transform">
-          <span class="relative w-m px-5 py-2.5 transition-colors bg-white cursor-pointer dark:bg-gray-900 rounded-md group-hover:bg-transparent group-hover:dark:bg-transparent text-2xl hover:scale-105">
+          <span class="relative w-m px-10 py-5 transition-colors bg-white cursor-pointer dark:bg-gray-900 rounded-md group-hover:bg-transparent group-hover:dark:bg-transparent text-6xl hover:scale-105">
           Submit your Site!
           </span>
       </button>
@@ -139,7 +139,7 @@
               <li> <a href="https://hackclub.slack.com/archives/C09535Y8E83" class="text-orange-400 hover:text-orange-300 hover:underline cursor-pointer font-semibold">Join the #smelt channel on Slack.</a></li>
               <li> Ensure the <a href="https://hackatime.hackclub.com" class="text-orange-400 hover:text-orange-300 hover:underline cursor-pointer font-semibold">Hackatime</a> extension is installed and running.</li>
               <li> Build your Svelte/SvelteKit website!</li>
-              <li> Include an Easter Egg in your Site.</li>
+              <li> Include an <a href="https://en.wikipedia.org/wiki/Easter_egg_(media)" class="text-orange-400 hover:text-orange-300 hover:underline cursor-pointer font-semibold">Easter Egg</a> in your Site.</li>
               <li> Submit your site using the <a href="https://forms.hackclub.com/t/nGQ96A1Lnwus" class="text-orange-400 hover:text-orange-300 hover:underline cursor-pointer font-semibold">Submission Form.</a></li>
             </ul>
             </div>
