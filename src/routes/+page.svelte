@@ -44,9 +44,7 @@
       >
     </div>
     <div class="absolute flex justify-center left-0 right-0 bottom-0">
-      <div class="max-w-4xl w-full">
-        <img src="/crucible.png" alt="Crucible" class=" h-44" />
-      </div>
+      
     </div>
   </div>
   <div class="bg-gray-500 flex justify-center" style="background-image: url('/texturedsection.jpg')">
