@@ -146,6 +146,22 @@
         </div>
 
         <div class="faq-item bg-gray-800 rounded-lg p-6 border-l-4 duration-100 border-orange-400 hover:scale-105 *:transition-colors">
+          <h3 class="text-2xl font-semibold text-orange-300 mb-3">I've never used Svelte before, how do I get started?</h3>
+          <p class="text-gray-200 text-lg leading-relaxed">
+            We recommend starting out on the official tutorials, they're very good, and they get you to code in browser! You can check them out for <a href="https://svelte.dev/tutorial/svelte/welcome-to-svelte" class="text-orange-400 hover:text-orange-300 hover:underline cursor-pointer font-semibold">Svelte</a> and for <a href="https://svelte.dev/tutorial/kit/introducing-sveltekit" class="text-orange-400 hover:text-orange-300 hover:underline cursor-pointer font-semibold">SvelteKit.</a>
+            </p>
+        </div>
+
+
+        <div class="faq-item bg-gray-800 rounded-lg p-6 border-l-4 duration-100 border-orange-400 hover:scale-105 *:transition-colors">
+          <h3 class="text-2xl font-semibold text-orange-300 mb-3">Any tips on how to deploy my website, and make it public?</h3>
+          <p class="text-gray-200 text-lg leading-relaxed">
+            We recommend using Vercel, as it provides a simple way to deploy Svelte/SvelteKit applications.
+            Vercel offers a <a href="https://vercel.com/pricing" class="text-orange-400 hover:text-orange-300 hover:underline cursor-pointer font-semibold">free (hobby) tier</a>, that's perfect for hosting your Smelt project.
+            </p>
+        </div>
+
+        <div class="faq-item bg-gray-800 rounded-lg p-6 border-l-4 duration-100 border-orange-400 hover:scale-105 *:transition-colors">
           <h3 class="text-2xl font-semibold text-orange-300 mb-3">What is <a href="https://svelte.dev/docs/svelte/overview" class="cursor-pointer  hover:text-orange-300 hover:underline">Svelte</a> and <a href="https://svelte.dev/docs/kit/introduction" class="cursor-pointer hover:text-orange-300 hover:underline">SvelteKit</a>?</h3>
           <p class="text-gray-200 text-lg leading-relaxed">
             <span class="font-semibold text-orange-400"><a href="https://svelte.dev/docs/svelte/overview" class="cursor-pointer  hover:text-orange-300 hover:underline">Svelte</a></span> is a modern JavaScript framework for building user interfaces that compiles your code to vanilla JavaScript. 
@@ -183,6 +199,8 @@
             Make sure to fill out the submission form completely with your correct shipping address, as otherwise your package might not get to you!
           </p>
         </div>
+
+        
       </div>
     </div>
   </div>
