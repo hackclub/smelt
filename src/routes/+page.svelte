@@ -1,6 +1,5 @@
 <body>
   <script src="falling-ash.js" defer></script>
-  <script src="faq_script.js" defer></script>
   <div
     id="canvascontainer"
     class="min-h-screen bg-gray-300 flex relative items-center justify-center bg-cover bg-center bg-no-repeat"
@@ -124,9 +123,26 @@
         <div class="faq-item bg-gray-800 rounded-lg p-6 border-l-4 duration-100 border-orange-400 hover:scale-105 *:transition-colors">
           <h3 class="text-2xl font-semibold text-orange-300 mb-3">What is Smelt?</h3>
           <p class="text-gray-200 text-lg leading-relaxed">
-            A Hack Club YSWS (You Ship, We Ship) where you can build a Svelte/SvelteKit website and get Svelted Rewards for your efforts! 
-            It's all about learning, building, and getting awesome prizes while you code.
+            A <a href="https://hackclub.com" class="text-orange-400 hover:text-orange-300 hover:underline cursor-pointer font-semibold">Hack Club</a> <a href="https://ysws.hackclub.com" class="text-orange-400 hover:text-orange-300 hover:underline cursor-pointer font-semibold">YSWS (You Ship, We Ship)</a> where you can build a Svelte/SvelteKit website and get Svelted Rewards for your efforts!
           </p>
+        </div>
+
+        <div class="space-y-8">
+        <div class="faq-item bg-gray-800 rounded-lg p-6 border-l-4 duration-100 border-orange-400 hover:scale-105 *:transition-colors">
+          <h3 class="text-2xl font-semibold text-orange-300 mb-3">I'm new here, where do I get started?</h3>
+          <div class="text-gray-200 text-lg leading-relaxed">
+          <p class="text-gray-200 text-lg leading-relaxed">
+            To particpate in Smelt, you need to take the following steps:
+             </p>
+            <ul class="gap-y-1 list-inside space-y-2 ml-4 list-decimal">
+              <li> <a href="https://hackclub.com/slack" class="text-orange-400 hover:text-orange-300 hover:underline cursor-pointer font-semibold">Join the Hack Club Slack Workspace.</a></li>
+              <li> <a href="https://hackclub.slack.com/archives/C09535Y8E83" class="text-orange-400 hover:text-orange-300 hover:underline cursor-pointer font-semibold">Join the #smelt channel on Slack.</a></li>
+              <li> Ensure the <a href="https://hackatime.hackclub.com" class="text-orange-400 hover:text-orange-300 hover:underline cursor-pointer font-semibold">Hackatime</a> extension is installed and running.</li>
+              <li> Build your Svelte/SvelteKit website!</li>
+              <li> Include an Easter Egg in your Site.</li>
+              <li> Submit your site using the <a href="https://forms.hackclub.com/t/nGQ96A1Lnwus" class="text-orange-400 hover:text-orange-300 hover:underline cursor-pointer font-semibold">Submission Form.</a></li>
+            </ul>
+            </div>
         </div>
 
         <div class="faq-item bg-gray-800 rounded-lg p-6 border-l-4 duration-100 border-orange-400 hover:scale-105 *:transition-colors">
@@ -163,8 +179,8 @@
         <div class="faq-item bg-gray-800 rounded-lg p-6 border-l-4 duration-100 border-orange-400 hover:scale-105 *:transition-colors">
           <h3 class="text-2xl font-semibold text-orange-300 mb-3">When will I receive my prizes?</h3>
           <p class="text-gray-200 text-lg leading-relaxed">
-            Prizes will be shipped after the event ends and we've verified your submission. 
-            Make sure to fill out the submission form completely with your correct shipping address!
+            Prizes will be shipped once we've reviewed your submission.
+            Make sure to fill out the submission form completely with your correct shipping address, as otherwise your package might not get to you!
           </p>
         </div>
       </div>
