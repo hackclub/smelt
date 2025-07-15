@@ -20,7 +20,7 @@
   <canvas id="canvas" style="z-index: 1; pointer-events: none;"></canvas>
   <canvas id="buffer" style="z-index: 1; pointer-events: none; visibility: hidden;"></canvas>
     <div class="flex flex-col space-y-12 items-center" style="z-index: 10; position: relative;">
-      <img src="/coin-flat.svg" alt="Svelted Coin" class="size-80 drop-shadow-[0_10px_5px_rgba(57,58,76,0.5)]" style="filter: drop-shadow(0 0 20px rgba(251, 146, 60, 0.8)) drop-shadow(0 0 40px rgba(251, 146, 60, 0.4));" data-tilt data-tilt-reset="true" data-tilt-scale="1.2" data-tilt-glare data-tilt-max-glare="0.6" />
+      <img src="/coin-flat-new.svg" alt="Svelted Coin" class="size-80 drop-shadow-[0_10px_5px_rgba(57,58,76,0.5)]" style="filter: drop-shadow(0 0 20px rgba(251, 146, 60, 0.8)) drop-shadow(0 0 40px rgba(251, 146, 60, 0.4));" data-tilt data-tilt-reset="true" data-tilt-scale="1.2" data-tilt-glare data-tilt-max-glare="0.6" />
       <div
         class="text-center text-white px-12 py-8 -rotate-3 text-3xl drop-shadow-[0_10px_5px_rgba(57,58,76,0.5)] bg-cover bg-center bg-no-repeat"
         style="background-image: url('/plate.png')" data-tilt data-tilt-reset="true" data-tilt-scale="1.2" data-tilt-glare data-tilt-max-glare="0.6"
@@ -190,12 +190,12 @@
         <div class="faq-item bg-gray-800 rounded-lg p-6 border-l-4 duration-100 border-orange-400 hover:scale-105 *:transition-colors">
           <h3 class="text-2xl font-semibold text-orange-300 mb-3">Are there any limitations on what I can submit?</h3>
           <div class="text-gray-200 text-lg leading-relaxed">
-            <p class="mb-3">Yes, here are the requirements:</p>
+            <p class="mb-3">Yes, you:</p>
             <ul class="list-disc list-inside space-y-2 ml-4">
               <li>Must include an <span class="text-orange-200 font-semibold">Easter Egg</span> in your site</li>
-              <li>Must be built with <span class="text-orange-200 font-semibold">Svelte or SvelteKit</span></li>
-              <li>Must be hosted on a <span class="text-orange-200 font-semibold">public URL</span></li>
-              <li>Your first commit must be <span class="text-orange-200 font-semibold">after July 10th, 2025</span></li>
+              <li>Must build your site with <span class="text-orange-200 font-semibold">Svelte or SvelteKit</span></li>
+              <li>Must have your site accessible via a <span class="text-orange-200 font-semibold">public URL</span></li>
+              <li>Must have created your site <span class="text-orange-200 font-semibold">after July 10th, 2025</span></li>
             </ul>
           </div>
         </div>
