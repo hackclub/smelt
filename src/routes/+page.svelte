@@ -1,3 +1,15 @@
+<svelte:head>
+  <!-- Safari-specific meta tags -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="format-detection" content="telephone=no">
+  
+  <!-- Safari font preload -->
+  <link rel="preconnect" href="https://fonts.cdnfonts.com" crossorigin>
+  <link rel="preload" href="https://fonts.cdnfonts.com/css/post-no-bills-jaffna" as="style">
+</svelte:head>
+
 <body>
   <script src="falling-ash.js" defer></script>
   <div
@@ -45,55 +57,46 @@
         >
       </div>
       <div class="space-y-12 text-2xl pb-12">
-        <div class="grid grid-cols-2">
-          <div class="text-white flex items-center space-x-12 ml-28">
-            <p
-              class="size-20 bg-orange-400 flex items-center justify-center rounded-full text-4xl"
-            >
+        <!-- Safari-compatible grid layout -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div class="text-white flex items-center space-x-8 justify-center md:justify-start">
+            <p class="size-20 bg-orange-400 flex items-center justify-center rounded-full text-4xl flex-shrink-0">
               1h
             </p>
             <p>Get a set of Svelte/Smelt Stickers</p>
           </div>
-          <div class="text-white flex items-center space-x-12 pl-12 mt-12">
-            <p
-              class="size-20 bg-orange-400 flex items-center justify-center rounded-full text-4xl"
-            >
+          <div class="text-white flex items-center space-x-8 justify-center md:justify-start">
+            <p class="size-20 bg-orange-400 flex items-center justify-center rounded-full text-4xl flex-shrink-0">
               3h
             </p>
             <p>Get a SmeltCoin</p>
           </div>
         </div>
-        <div class="grid grid-cols-2">
-          <div class="text-white flex items-center space-x-12 pl-10 mt-28">
-            <p
-              class="size-20 bg-orange-400 flex items-center justify-center rounded-full text-4xl"
-            >
-            7h
-            </p>
-            <p>Get a Smelted Pin</p>
-          </div>
-          <div class="text-white flex items-center space-x-12 ml-28">
-            <p
-              class="size-20 bg-orange-400 flex items-center justify-center rounded-full text-4xl"
-            >
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div class="text-white flex items-center space-x-8 justify-center md:justify-start">
+            <p class="size-20 bg-orange-400 flex items-center justify-center rounded-full text-4xl flex-shrink-0">
               5h
             </p>
             <p>Get a Smelted USB Stick</p>
           </div>
+          <div class="text-white flex items-center space-x-8 justify-center md:justify-start">
+            <p class="size-20 bg-orange-400 flex items-center justify-center rounded-full text-4xl flex-shrink-0">
+              7h
+            </p>
+            <p>Get a Smelted Pin</p>
+          </div>
         </div>
-        <div class="grid grid-cols-2">
-          <div class="text-white flex items-center space-x-12 pl-48">
-            <p
-              class="size-20 bg-orange-400 flex items-center justify-center rounded-full text-4xl"
-            >
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div class="text-white flex items-center space-x-8 justify-center md:justify-start">
+            <p class="size-20 bg-orange-400 flex items-center justify-center rounded-full text-4xl flex-shrink-0">
               12h
             </p>
             <p>Get a Smelted Mousepad</p>
           </div>
-          <div class="text-white flex items-center space-x-12 pl-10 mt-20">
-            <p
-              class="size-20 bg-orange-400 flex items-center justify-center rounded-full text-4xl"
-            >
+          <div class="text-white flex items-center space-x-8 justify-center md:justify-start">
+            <p class="size-20 bg-orange-400 flex items-center justify-center rounded-full text-4xl flex-shrink-0">
               16h
             </p>
             <p>Get a Smelted Shirt</p>
@@ -103,10 +106,10 @@
     </div>
   </div>
   <div class="bg-gray-500 py-10 flex justify-center">
-    <!-- This will be a Submission Section-->
+    <!-- Safari-compatible button -->
      <a href="https://forms.hackclub.com/t/nGQ96A1Lnwus">
-      <button class="relative w-m inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-slate-700 via-orange-400 to-yellow-400 group-hover:from-pink-500 group-hover:to-orange-400 hover:text-white dark:text-white focus:outline-none hover:scale-105 transition-transform duration-1000 motion-safe:transition-transform">
-          <span class="relative w-m px-10 py-5 transition-colors bg-white cursor-pointer dark:bg-gray-900 rounded-md group-hover:bg-transparent group-hover:dark:bg-transparent text-6xl hover:scale-105">
+      <button class="relative inline-flex items-center justify-center p-1 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-slate-700 via-orange-400 to-yellow-400 group-hover:from-pink-500 group-hover:to-orange-400 hover:text-white dark:text-white focus:outline-none hover:scale-105 transition-transform duration-300 motion-safe:transition-transform">
+          <span class="relative px-8 py-4 transition-colors bg-white cursor-pointer dark:bg-gray-900 rounded-md group-hover:bg-transparent group-hover:dark:bg-transparent text-3xl md:text-4xl hover:scale-105 font-bold">
           Submit your Site!
           </span>
       </button>
@@ -143,6 +146,13 @@
               <li> Submit your site using the <a href="https://forms.hackclub.com/t/nGQ96A1Lnwus" class="text-orange-400 hover:text-orange-300 hover:underline cursor-pointer font-semibold">Submission Form.</a></li>
             </ul>
             </div>
+        </div>
+
+        <div class="faq-item bg-gray-800 rounded-lg p-6 border-l-4 duration-100 border-orange-400 hover:scale-105 *:transition-colors">
+          <h3 class="text-2xl font-semibold text-orange-300 mb-3">When does Smelt end?</h3>
+          <p class="text-gray-200 text-lg leading-relaxed">
+            Smelt will end on <span class="text-orange-300 font-semibold">July 31st</span>.
+          </p>
         </div>
 
         <div class="faq-item bg-gray-800 rounded-lg p-6 border-l-4 duration-100 border-orange-400 hover:scale-105 *:transition-colors">
@@ -200,7 +210,8 @@
           </p>
         </div>
 
-        
+        <h3 class="text-2xl font-semibold text-orange-300 mb-3">Any further questions?</h3>
+        <h4 class="text-xl font-semibold text-orange-300 indent-10">Send us an <a href="mailto:alexvd@hackclub.com" class="text-orange-400 hover:text-orange-300 hover:underline cursor-pointer font-semibold">email</a></h4>
       </div>
     </div>
   </div>
