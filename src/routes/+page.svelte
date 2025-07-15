@@ -205,6 +205,7 @@
     </div>
   </div>
   <script type="text/javascript" src="vanilla-tilt.min.js"></script>
+  </div>
 </body>
 
 <footer class="bg-gray-600 py-10">
