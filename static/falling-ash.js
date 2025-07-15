@@ -174,7 +174,7 @@ function randomRange(from, to, seed) {
       canvas[1].height = H;
       
       // Initialize particles
-      for (var i = 0; i < 600; i++) {
+      for (var i = 0; i < 50; i++) {
         A.push(new ash());
       }
       
