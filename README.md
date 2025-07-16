@@ -38,7 +38,7 @@ You're in the right place :)
 - **Animations**: Vanilla Tilt.js is the only one..
 - **Deployment**: Coolify
 
-## 📋 Project Structure
+##  Project Structure
 
 ```
 src/
@@ -71,7 +71,7 @@ We welcome contributions to make the Smelt website even better! Here's how you c
    - Expected vs actual behavior
    - Screenshots (if applicable)
 
-### 💻 Contributing Code
+###  Contributing Code
 
 1. **Fork the repository**
    ```bash
