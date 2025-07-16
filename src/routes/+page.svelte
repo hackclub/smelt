@@ -196,7 +196,7 @@ const images = [
   >
     <p>The awesome swag!!</p>
     <p class="text-base md:text-xl">(Images to be revealed every 3 days)</p>
-    <p class="text-base md:text-xl">P.S: Prizes Stack! - So once you hit 16 Hours, you get every single prize!</p>
+    <p class="text-base md:text-xl text-center">P.S: Prizes Stack! - So once you hit 16 Hours, you get every single prize!</p>
     <div
       class="w-full bg-no-repeat h-[22rem] md:h-[52rem] bg-cover bg-center"
       style="background-image: url('/WS.png')"
