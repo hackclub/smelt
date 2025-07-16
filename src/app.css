@@ -1,8 +1,9 @@
 @import url('https://fonts.cdnfonts.com/css/post-no-bills-jaffna');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 @import "tailwindcss";
 
 @theme {
-    --font-main: "Post No Bills Jaffna ExtraBold", sans-serif; 
+    --font-main: "Patrick Hand", cursive;
 }
 
 body {
@@ -76,30 +77,10 @@ canvas {
   }
 }
 
-/* Safari font loading optimization - enhance the existing import */
-@import url('https://fonts.cdnfonts.com/css/post-no-bills-jaffna') screen;
-
 /* Safari tilt.js compatibility */
 [data-tilt] {
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-}
-
-::-webkit-scrollbar {
-  width: 8px;
-}
-
-::-webkit-scrollbar-track {
-  background: #374151;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #fb923c;
-  border-radius: 4px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #f97316;
 }
