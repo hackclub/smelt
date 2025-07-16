@@ -37,11 +37,22 @@ const images = [
     id="canvascontainer"
     class="min-h-screen bg-neutral-400 flex relative items-center justify-center bg-cover bg-center bg-no-repeat"
   >
-    <div
-      class="absolute inset-0 bg-no-repeat bg-contain bg-left pointer-events-none z-20 hidden md:block"
+
+  <div
+      class="absolute inset-0 -translate-x-28 bg-no-repeat bg-contain bg-left pointer-events-none z-20 block md:hidden"
       style="background-image: url('/hero/L1L.png')"
     ></div>
     <div
+      class="absolute inset-0 translate-x-28 bg-no-repeat bg-contain bg-right pointer-events-none z-20 block md:hidden"
+      style="background-image: url('/hero/L1R.png')"
+    ></div>
+
+
+  <div
+    class="absolute inset-0 bg-no-repeat bg-contain bg-left pointer-events-none z-20 hidden md:block"
+    style="background-image: url('/hero/L1L.png')"
+  ></div>
+  <div
       class="absolute inset-0 bg-no-repeat bg-contain bg-right pointer-events-none z-20 hidden md:block"
       style="background-image: url('/hero/L1R.png')"
     ></div>
@@ -73,11 +84,11 @@ const images = [
       >
     </div>
 
-    <div class="flex flex-col space-y-12 items-center z-10 relative">
+    <div class="flex flex-col space-y-12 items-center relative">
       <img
         src="/coin.png"
         alt="Svelted Coin"
-        class="size-60 md:size-80"
+        class="size-60 z-50 md:size-80"
         style="filter: drop-shadow(0 0 20px rgba(251, 146, 60, 0.8)) drop-shadow(0 0 40px rgba(251, 146, 60, 0.4));"
         data-tilt
         data-tilt-reset="true"
@@ -121,7 +132,7 @@ const images = [
       <div
         class="text-xl md:text-4xl text-neutral-700 text-right pt-20 flex flex-col space-y-7"
       >
-        <div class="flex space-x-4 items-center">
+        <div class="flex space-x-4 items-center z-50">
           <p
             class="border-3 border-neutral-700 flex items-center justify-center size-10 md:size-14 rounded-full"
           >
