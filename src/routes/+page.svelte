@@ -24,6 +24,14 @@
   />
 </svelte:head>
 
+<!-- <script> 
+import Carousel from "../components/Carousel.svelte";
+const images = [
+  {path: "/images/image1.jpg", id: "image1", alt: "Image 1", href: "https://github.com/hackclub"}, //placeholder image
+];
+
+</script> -->
+
 <body>
   <div
     id="canvascontainer"
@@ -174,7 +182,8 @@
     class="bg-neutral-700 justify-center text-2xl md:text-5xl text-neutral-300 flex flex-col items-center"
   >
     <p>The awesome swag!!</p>
-    <p class="text-base md:text-xl">(to be revealed soon)</p>
+    <p class="text-base md:text-xl">(Images to be revealed every 3 days)</p>
+    <p class="text-base md:text-xl">P.S: Prizes Stack! - So once you hit 16 Hours, you get every single prize!</p>
     <div
       class="w-full bg-no-repeat h-[22rem] md:h-[52rem] bg-cover bg-center"
       style="background-image: url('/WS.png')"
@@ -182,6 +191,7 @@
   </div>
   <div>
     <!-- This will be a Carousel Showing Submissions -->
+     <!--<Carousel images={images} />-->
   </div>
   <div id="faqs" class="bg-neutral-700 py-16 px-8">
     <div class="max-w-4xl mx-auto">
