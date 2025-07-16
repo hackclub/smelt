@@ -75,7 +75,7 @@ const images = [
 
     <div class="flex flex-col space-y-12 items-center z-10 relative">
       <img
-        src="/coin-flat-new.svg"
+        src="/coin.png"
         alt="Svelted Coin"
         class="size-60 md:size-80"
         style="filter: drop-shadow(0 0 20px rgba(251, 146, 60, 0.8)) drop-shadow(0 0 40px rgba(251, 146, 60, 0.4));"
@@ -128,8 +128,13 @@ const images = [
             1
           </p>
           <p>
-            Build a website with <span class="text-orange-700 hover:underline"><a href="https://svelte.dev">Svelte</a></span> or
-            <span class="text-orange-700 hover:underline"><a href="https://kit.svelte.dev">SvelteKit</a></span>
+            Build a website with <span class="text-orange-700 hover:underline"
+              ><a href="https://svelte.dev">Svelte</a></span
+            >
+            or
+            <span class="text-orange-700 hover:underline"
+              ><a href="https://kit.svelte.dev">SvelteKit</a></span
+            >
           </p>
         </div>
         <div class="flex space-x-4 items-center">
@@ -139,8 +144,12 @@ const images = [
             2
           </p>
           <p>
-            Add a secret <span class="text-orange-700"><a href="https://hc-cdn.hel1.your-objectstorage.com/s/v3/138cdfc4d8700edf08b30f61138cc82c39fe5e97_1498dc64062685.5ac5abaa81fad.gif" class="cursor-text">easter egg</a></span> to your
-            site
+            Add a secret <span class="text-orange-700"
+              ><a
+                href="https://hc-cdn.hel1.your-objectstorage.com/s/v3/138cdfc4d8700edf08b30f61138cc82c39fe5e97_1498dc64062685.5ac5abaa81fad.gif"
+                class="cursor-text">easter egg</a
+              ></span
+            > to your site
           </p>
         </div>
         <div class="flex space-x-4 items-center">
@@ -166,14 +175,18 @@ const images = [
           </p>
         </div>
         <div class="flex justify-center items-center mt-6">
-         <a href="https://forms.hackclub.com/t/nGQ96A1Lnwus">
-      <button class="relative inline-flex items-center justify-center p-1 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-yellow-500 to-orange-900 group-hover:from-pink-500 group-hover:to-orange-400 hover:text-white dark:text-white focus:outline-none hover:scale-105 transition-transform duration-300 motion-safe:transition-transform">
-          <span class="relative px-28 py-4 transition-colors bg-neutral cursor-pointer dark:bg-gray-900 rounded-md group-hover:bg-transparent group-hover:dark:bg-transparent text-3xl md:text-4xl hover:scale-105 font-bold">
-          Submit Here!
-          </span>
-      </button>
-    </a>
-    </div>
+          <a href="https://forms.hackclub.com/t/nGQ96A1Lnwus">
+            <button
+              class="relative inline-flex items-center justify-center p-1 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-yellow-500 to-orange-900 group-hover:from-pink-500 group-hover:to-orange-400 hover:text-white dark:text-white focus:outline-none hover:scale-105 transition-transform duration-300 motion-safe:transition-transform"
+            >
+              <span
+                class="relative px-28 py-4 transition-colors bg-neutral cursor-pointer dark:bg-gray-900 rounded-md group-hover:bg-transparent group-hover:dark:bg-transparent text-3xl md:text-4xl hover:scale-105 font-bold"
+              >
+                Submit Here!
+              </span>
+            </button>
+          </a>
+        </div>
       </div>
     </div>
     <div class="bottom-0 h-15 bg-neutral-700 z-20 w-screen"></div>
@@ -224,36 +237,23 @@ const images = [
         </div>
 
         <div
-            class="faq-item bg-neutral-800 rounded-lg p-6 border-l-4 duration-100 border-orange-400 hover:scale-[102%] *:transition-colors"
-          >
-            <h3 class="text-lg md:text-2xl font-semibold text-orange-400 mb-3">
-              What are the prizes again?
-            </h3>
-            <p class="text-neutral-200 text-sm md:text-lg leading-relaxed">
-              The prizes for participating in Smelt are:
-            </p>
-            <ul class="list-disc list-inside ml-4 text-white">
-              <li>
-                1hr - Stickers
-              </li>
-                <li>
-                  3hrs - Svelted Coin
-                </li>
-                <li>
-                  5hrs - Svelted USB Stick
-                </li>
-                <li>
-                  7hrs - Svelted Pin
-                </li>
-                <li>
-                  12hrs - Svelted Mousepad
-                </li>
-                <li>
-                  16hrs - Svelted T-Shirt
-                </li>
-              </ul>
-          
-          </div>
+          class="faq-item bg-neutral-800 rounded-lg p-6 border-l-4 duration-100 border-orange-400 hover:scale-[102%] *:transition-colors"
+        >
+          <h3 class="text-lg md:text-2xl font-semibold text-orange-400 mb-3">
+            What are the prizes again?
+          </h3>
+          <p class="text-neutral-200 text-sm md:text-lg leading-relaxed">
+            The prizes for participating in Smelt are:
+          </p>
+          <ul class="list-disc list-inside ml-4 text-white">
+            <li>1hr - Stickers</li>
+            <li>3hrs - Svelted Coin</li>
+            <li>5hrs - Svelted USB Stick</li>
+            <li>7hrs - Svelted Pin</li>
+            <li>12hrs - Svelted Mousepad</li>
+            <li>16hrs - Svelted T-Shirt</li>
+          </ul>
+        </div>
 
         <div class="space-y-8">
           <div
@@ -312,8 +312,6 @@ const images = [
               </ul>
             </div>
           </div>
-
-      
 
           <div
             class="faq-item bg-neutral-800 rounded-lg p-6 border-l-4 duration-100 border-orange-400 hover:scale-[102%] *:transition-colors"
@@ -491,21 +489,27 @@ const images = [
       </div>
 
       <div class="flex justify-center items-center mt-6">
-         <a href="https://forms.hackclub.com/t/nGQ96A1Lnwus">
-      <button class="relative inline-flex items-center justify-center p-1 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-yellow-500 to-orange-900 group-hover:from-pink-500 group-hover:to-orange-400 hover:text-white dark:text-white focus:outline-none hover:scale-105 transition-transform duration-300 motion-safe:transition-transform">
-          <span class="relative px-28 py-4 transition-colors bg-neutral cursor-pointer dark:bg-neutral-800 rounded-md group-hover:bg-transparent group-hover:dark:bg-transparent text-3xl md:text-4xl hover:scale-105 font-bold">
-          Submit Your Site Now!
-          </span>
-      </button>
-    </a>
-    </div>
+        <a href="https://forms.hackclub.com/t/nGQ96A1Lnwus">
+          <button
+            class="relative inline-flex items-center justify-center p-1 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-yellow-500 to-orange-900 group-hover:from-pink-500 group-hover:to-orange-400 hover:text-white dark:text-white focus:outline-none hover:scale-105 transition-transform duration-300 motion-safe:transition-transform"
+          >
+            <span
+              class="relative px-28 py-4 transition-colors bg-neutral cursor-pointer dark:bg-neutral-800 rounded-md group-hover:bg-transparent group-hover:dark:bg-transparent text-3xl md:text-4xl hover:scale-105 font-bold"
+            >
+              Submit Your Site Now!
+            </span>
+          </button>
+        </a>
+      </div>
     </div>
     <script type="text/javascript" src="vanilla-tilt.min.js"></script>
   </div>
 </body>
 
 <footer class="bg-neutral-700 py-10">
-  <div class="flex flex-col md:flex-row justify-between items-center px-2 max-w-2xl mx-auto">
+  <div
+    class="flex flex-col md:flex-row justify-between items-center px-2 max-w-2xl mx-auto"
+  >
     <p class="text-white text-sm mb-4 md:mb-0 order-2 md:order-1">
       © 2025 Hack Club. 501(c)(3) nonprofit (EIN: 81-2908499).
     </p>
