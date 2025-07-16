@@ -495,19 +495,25 @@
 </body>
 
 <footer class="bg-neutral-700 py-10">
-  <p class="text-white text-center">
-    Made with <span class="inline-block hover:animate-bounce cursor-pointer"
-      >❤️</span
-    >
-    by Hack Club's
-    <a
-      href="https://github.com/vandorena"
-      class="text-orange-400 hover:underline cursor-pointer">Alex Van Doren</a
-    >
-    and
-    <a
-      href="https://github.com/samdev-7"
-      class="text-orange-400 hover:underline cursor-pointer">Sam Liu</a
-    >
-  </p>
+  <div class="flex flex-col md:flex-row justify-between items-center px-2 max-w-2xl mx-auto">
+    <p class="text-white text-sm mb-4 md:mb-0 order-2 md:order-1">
+      © 2025 Hack Club. 501(c)(3) nonprofit (EIN: 81-2908499).
+    </p>
+    <p class="text-white text-center order-1 md:order-2 mb-4 md:mb-0">
+      Made with <span class="inline-block hover:animate-bounce cursor-pointer"
+        >❤️</span
+      >
+      by Hack Club's
+      <a
+        href="https://github.com/vandorena"
+        class="text-orange-400 hover:underline cursor-pointer">Alex Van Doren</a
+      >
+      and
+      <a
+        href="https://github.com/samdev-7"
+        class="text-orange-400 hover:underline cursor-pointer">Sam Liu</a
+      >
+    </p>
+    <div class="order-3 hidden md:block"></div>
+  </div>
 </footer>
