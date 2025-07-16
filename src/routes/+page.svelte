@@ -209,6 +209,38 @@
           </p>
         </div>
 
+        <div
+            class="faq-item bg-neutral-800 rounded-lg p-6 border-l-4 duration-100 border-orange-400 hover:scale-[102%] *:transition-colors"
+          >
+            <h3 class="text-lg md:text-2xl font-semibold text-orange-400 mb-3">
+              What are the prizes again?
+            </h3>
+            <p class="text-neutral-200 text-sm md:text-lg leading-relaxed">
+              The prizes for participating in Smelt are:
+            </p>
+            <ul class="list-disc list-inside ml-4 text-white">
+              <li>
+                1hr - Stickers
+              </li>
+                <li>
+                  3hrs - Svelted Coin
+                </li>
+                <li>
+                  5hrs - Svelted USB Stick
+                </li>
+                <li>
+                  7hrs - Svelted Pin
+                </li>
+                <li>
+                  12hrs - Svelted Mousepad
+                </li>
+                <li>
+                  16hrs - Svelted T-Shirt
+                </li>
+              </ul>
+          
+          </div>
+
         <div class="space-y-8">
           <div
             class="faq-item bg-neutral-800 rounded-lg p-6 border-l-4 duration-100 border-orange-400 hover:scale-[102%] *:transition-colors"
@@ -267,18 +299,7 @@
             </div>
           </div>
 
-          <div
-            class="faq-item bg-neutral-800 rounded-lg p-6 border-l-4 duration-100 border-orange-400 hover:scale-[102%] *:transition-colors"
-          >
-            <h3 class="text-lg md:text-2xl font-semibold text-orange-400 mb-3">
-              When does Smelt end?
-            </h3>
-            <p class="text-neutral-200 text-sm md:text-lg leading-relaxed">
-              Smelt will end on <span class="text-orange-400 font-semibold"
-                >July 31st</span
-              >.
-            </p>
-          </div>
+      
 
           <div
             class="faq-item bg-neutral-800 rounded-lg p-6 border-l-4 duration-100 border-orange-400 hover:scale-[102%] *:transition-colors"
@@ -350,6 +371,19 @@
               > is a framework built on top of Svelte that adds features like routing,
               server-side rendering, and file-based routing to help you build full-stack
               applications.
+            </p>
+          </div>
+
+          <div
+            class="faq-item bg-neutral-800 rounded-lg p-6 border-l-4 duration-100 border-orange-400 hover:scale-[102%] *:transition-colors"
+          >
+            <h3 class="text-lg md:text-2xl font-semibold text-orange-400 mb-3">
+              When does Smelt end?
+            </h3>
+            <p class="text-neutral-200 text-sm md:text-lg leading-relaxed">
+              Smelt will end on <span class="text-orange-400 font-semibold"
+                >July 31st</span
+              >.
             </p>
           </div>
 
