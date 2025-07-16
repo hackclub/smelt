@@ -120,8 +120,8 @@
             1
           </p>
           <p>
-            Build a website with <span class="text-orange-700">Svelte</span> or
-            <span class="text-orange-700">SvelteKit</span>
+            Build a website with <span class="text-orange-700 hover:underline"><a href="https://svelte.dev">Svelte</a></span> or
+            <span class="text-orange-700 hover:underline"><a href="https://kit.svelte.dev">SvelteKit</a></span>
           </p>
         </div>
         <div class="flex space-x-4 items-center">
@@ -157,11 +157,15 @@
             >
           </p>
         </div>
-        <a
-          href="https://forms.hackclub.com/t/nGQ96A1Lnwus"
-          class="w-full text-center bg-orange-600 text-white py-3 font-bold"
-          >Submit here</a
-        >
+        <div class="flex justify-center items-center mt-6">
+         <a href="https://forms.hackclub.com/t/nGQ96A1Lnwus">
+      <button class="relative inline-flex items-center justify-center p-1 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-yellow-500 to-orange-900 group-hover:from-pink-500 group-hover:to-orange-400 hover:text-white dark:text-white focus:outline-none hover:scale-105 transition-transform duration-300 motion-safe:transition-transform">
+          <span class="relative px-28 py-4 transition-colors bg-neutral cursor-pointer dark:bg-gray-900 rounded-md group-hover:bg-transparent group-hover:dark:bg-transparent text-3xl md:text-4xl hover:scale-105 font-bold">
+          Submit Here!
+          </span>
+      </button>
+    </a>
+    </div>
       </div>
     </div>
     <div class="bottom-0 h-15 bg-neutral-700 z-20 w-screen"></div>
@@ -476,13 +480,15 @@
         </div>
       </div>
 
-      <div class="text-center mt-12">
-        <a
-          href="https://forms.hackclub.com/t/nGQ96A1Lnwus"
-          class="inline-block text-center bg-orange-600 text-white py-4 px-8 font-bold text-lg md:text-xl"
-          >Submit your site now!</a
-        >
-      </div>
+      <div class="flex justify-center items-center mt-6">
+         <a href="https://forms.hackclub.com/t/nGQ96A1Lnwus">
+      <button class="relative inline-flex items-center justify-center p-1 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-yellow-500 to-orange-900 group-hover:from-pink-500 group-hover:to-orange-400 hover:text-white dark:text-white focus:outline-none hover:scale-105 transition-transform duration-300 motion-safe:transition-transform">
+          <span class="relative px-28 py-4 transition-colors bg-neutral cursor-pointer dark:bg-neutral-800 rounded-md group-hover:bg-transparent group-hover:dark:bg-transparent text-3xl md:text-4xl hover:scale-105 font-bold">
+          Submit Your Site Now!
+          </span>
+      </button>
+    </a>
+    </div>
     </div>
     <script type="text/javascript" src="vanilla-tilt.min.js"></script>
   </div>
