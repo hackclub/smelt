@@ -131,7 +131,7 @@
             2
           </p>
           <p>
-            Add a secret <span class="text-orange-700">easter egg</span> to your
+            Add a secret <span class="text-orange-700"><a href="https://hc-cdn.hel1.your-objectstorage.com/s/v3/138cdfc4d8700edf08b30f61138cc82c39fe5e97_1498dc64062685.5ac5abaa81fad.gif" class="cursor-text">easter egg</a></span> to your
             site
           </p>
         </div>
