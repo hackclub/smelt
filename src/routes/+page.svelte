@@ -410,6 +410,44 @@ const images = [
             </p>
           </div>
 
+           <div
+            class="faq-item bg-neutral-800 rounded-lg p-6 border-l-4 duration-100 border-orange-400 hover:scale-[102%] *:transition-colors"
+          >
+            <h3 class="text-lg md:text-2xl font-semibold text-orange-400 mb-3">
+              What is an Easter Egg?
+            </h3>
+            <p class="text-neutral-200 text-sm md:text-lg leading-relaxed">
+              An Easter Egg is a hidden feature or surprise within a project that
+              is not immediately obvious to users. They
+              could be a fun interaction, a hidden message, or a unique
+              functionality that adds an element of delight for those who
+              discover it. Here are some example of google's web Easter Eggs:</p>
+              <ul class="indent-5 list-disc list-inside ml-4 text-neutral-200 text-sm md:text-lg leading-relaxed">
+                <li>
+                  <a
+                    href="https://www.google.com/search?q=do+a+barrel+roll"
+                    class="text-orange-400 hover:underline"
+                    ><b>Do a barrel roll</b></a>
+                </li>
+          
+                <li>
+                  <a
+                    href="https://www.google.com/search?q=dutch+angle"
+                    class="text-orange-400 hover:underline"
+                    ><b>Dutch Angle</b></a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.google.com/search?q=super+man"
+                    class="text-orange-400 hover:underline"
+                    ><b>Superman</b></a
+                  >
+                </li>
+              </ul>
+          
+          </div>
+
           <div
             class="faq-item bg-neutral-800 rounded-lg p-6 border-l-4 duration-100 border-orange-400 hover:scale-[102%] *:transition-colors"
           >
