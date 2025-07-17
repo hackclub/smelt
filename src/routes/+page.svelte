@@ -186,7 +186,7 @@ const images = [
           </p>
         </div>
         <div class="flex justify-center items-center mt-6">
-          <a href="https://forms.hackclub.com/t/nGQ96A1Lnwus">
+          <a href="https://submit.hackclub.com/smelt">
             <button
               class="relative inline-flex items-center justify-center p-1 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-yellow-500 to-orange-900 group-hover:from-pink-500 group-hover:to-orange-400 hover:text-white dark:text-white focus:outline-none hover:scale-105 transition-transform duration-300 motion-safe:transition-transform"
             >
@@ -315,7 +315,7 @@ const images = [
                 </li>
                 <li>
                   Submit your site using the <a
-                    href="https://forms.hackclub.com/t/nGQ96A1Lnwus"
+                    href="https://submit.hackclub.com/smelt"
                     class="text-orange-400 hover:underline cursor-pointer font-semibold"
                     >Submission Form.</a
                   >
@@ -538,7 +538,7 @@ const images = [
       </div>
 
       <div class="flex justify-center items-center mt-6">
-        <a href="https://forms.hackclub.com/t/nGQ96A1Lnwus">
+        <a href="https://submit.hackclub.com/smelt">
           <button
             class="relative inline-flex items-center justify-center p-1 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-yellow-500 to-orange-900 group-hover:from-pink-500 group-hover:to-orange-400 hover:text-white dark:text-white focus:outline-none hover:scale-105 transition-transform duration-300 motion-safe:transition-transform"
           >
