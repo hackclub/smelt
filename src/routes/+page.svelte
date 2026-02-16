@@ -1,3 +1,13 @@
+<script>
+  import { onMount } from 'svelte';
+  import VanillaTilt from 'vanilla-tilt';
+
+  onMount(() => {
+    const elements = /** @type {HTMLElement[]} */ (Array.from(document.querySelectorAll('[data-tilt]')));
+    VanillaTilt.init(elements);
+  });
+</script>
+
 <svelte:head>
   <!-- Safari-specific meta tags -->
   <meta
@@ -24,15 +34,7 @@
   />
 </svelte:head>
 
-<!-- <script> 
-import Carousel from "../components/Carousel.svelte";
-const images = [
-  {path: "/images/image1.jpg", id: "image1", alt: "Image 1", href: "https://github.com/hackclub"}, //placeholder image
-];
-
-</script> -->
-
-<body>
+<div>
   <div
     id="canvascontainer"
     class="min-h-screen bg-neutral-400 flex relative items-center justify-center bg-cover bg-center bg-no-repeat"
@@ -104,7 +106,7 @@ const images = [
         data-tilt-scale="1.1"
       >
         <p>Smelt - A Hack Club YSWS</p>
-        <p class="text-orange-700">Ends July 31</p>
+        <p class="text-orange-700">Ended July 31, 2025</p>
       </div>
     </div>
     <img
@@ -118,14 +120,14 @@ const images = [
     class="bg-neutral-400 flex flex-col items-center bg-no-repeat bg-contain"
   >
     <div
-      class="w-full max-w-6xl relative min-h-[50rem] flex items-center justify-center -mt-10 pb-10"
+      class="w-full max-w-6xl relative min-h-200 flex items-center justify-center -mt-10 pb-10"
     >
       <div
-        class="absolute left-0 bottom-0 h-[40rem] right-0 bg-no-repeat bg-contain bg-left pointer-events-none z-20 translate-y-[5.5rem] -translate-x-[10rem] hidden md:block"
+        class="absolute left-0 bottom-0 h-160 right-0 bg-no-repeat bg-contain bg-left pointer-events-none z-20 translate-y-22 -translate-x-40 hidden md:block"
         style="background-image: url('/2L.png')"
       ></div>
       <div
-        class="absolute left-0 bottom-0 h-[40rem] right-0 bg-no-repeat bg-contain bg-right pointer-events-none z-20 translate-y-[5rem] hidden md:block"
+        class="absolute left-0 bottom-0 h-160 right-0 bg-no-repeat bg-contain bg-right pointer-events-none z-20 translate-y-20 hidden md:block"
         style="background-image: url('/2R.png')"
       ></div>
       <div class="md:w-[20%]"></div>
@@ -157,7 +159,7 @@ const images = [
           <p>
             Add a secret <span class="text-orange-700"
               ><a
-                href="https://hc-cdn.hel1.your-objectstorage.com/s/v3/138cdfc4d8700edf08b30f61138cc82c39fe5e97_1498dc64062685.5ac5abaa81fad.gif"
+                href="/egg.gif"
                 class="cursor-text">easter egg</a
               ></span
             > to your site
@@ -186,17 +188,16 @@ const images = [
           </p>
         </div>
         <div class="flex justify-center items-center mt-6">
-          <a href="https://submit.hackclub.com/smelt">
-            <button
-              class="relative inline-flex items-center justify-center p-1 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-yellow-500 to-orange-900 group-hover:from-pink-500 group-hover:to-orange-400 hover:text-white dark:text-white focus:outline-none hover:scale-105 transition-transform duration-300 motion-safe:transition-transform"
+          <button
+            disabled
+            class="relative inline-flex items-center justify-center p-1 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-500 rounded-lg bg-neutral-600 cursor-not-allowed opacity-60"
+          >
+            <span
+              class="relative px-28 py-4 bg-neutral-700 rounded-md text-3xl md:text-4xl font-bold text-neutral-400"
             >
-              <span
-                class="relative px-28 py-4 transition-colors bg-neutral cursor-pointer dark:bg-gray-900 rounded-md group-hover:bg-transparent group-hover:dark:bg-transparent text-3xl md:text-4xl hover:scale-105 font-bold"
-              >
-                Submit Here!
-              </span>
-            </button>
-          </a>
+              Submissions Closed
+            </span>
+          </button>
         </div>
       </div>
     </div>
@@ -209,7 +210,7 @@ const images = [
     <p class="text-base md:text-xl">(Images to be revealed every 3 days)</p>
     <p class="text-base md:text-xl text-center">P.S: Prizes Stack! - So once you hit 16 Hours, you get every single prize!</p>
     <div
-      class="w-full bg-no-repeat h-[22rem] md:h-[52rem] bg-cover bg-center"
+      class="w-full bg-no-repeat h-88 md:h-208 bg-cover bg-center"
       style="background-image: url('/WS.png')"
     ></div>
   </div>
@@ -314,11 +315,7 @@ const images = [
                   > in your Site.
                 </li>
                 <li>
-                  Submit your site using the <a
-                    href="https://submit.hackclub.com/smelt"
-                    class="text-orange-400 hover:underline cursor-pointer font-semibold"
-                    >Submission Form.</a
-                  >
+                  Submit your site!
                 </li>
               </ul>
             </div>
@@ -404,8 +401,8 @@ const images = [
               When does Smelt end?
             </h3>
             <p class="text-neutral-200 text-sm md:text-lg leading-relaxed">
-              Smelt will end on <span class="text-orange-400 font-semibold"
-                >July 31st</span
+              Smelt ended on <span class="text-orange-400 font-semibold"
+                >July 31st, 2025</span
               >.
             </p>
           </div>
@@ -538,22 +535,21 @@ const images = [
       </div>
 
       <div class="flex justify-center items-center mt-6">
-        <a href="https://submit.hackclub.com/smelt">
-          <button
-            class="relative inline-flex items-center justify-center p-1 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-yellow-500 to-orange-900 group-hover:from-pink-500 group-hover:to-orange-400 hover:text-white dark:text-white focus:outline-none hover:scale-105 transition-transform duration-300 motion-safe:transition-transform"
+        <button
+          disabled
+          class="relative inline-flex items-center justify-center p-1 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-500 rounded-lg bg-neutral-600 cursor-not-allowed opacity-60"
+        >
+          <span
+            class="relative px-28 py-4 bg-neutral-700 rounded-md text-3xl md:text-4xl font-bold text-neutral-400"
           >
-            <span
-              class="relative px-28 py-4 transition-colors bg-neutral cursor-pointer dark:bg-neutral-800 rounded-md group-hover:bg-transparent group-hover:dark:bg-transparent text-3xl md:text-4xl hover:scale-105 font-bold"
-            >
-              Submit Your Site Now!
-            </span>
-          </button>
-        </a>
+            Submissions Closed
+          </span>
+        </button>
       </div>
     </div>
-    <script type="text/javascript" src="vanilla-tilt.min.js"></script>
+
   </div>
-</body>
+</div>
 
 <footer class="bg-neutral-700 py-10">
   <div
